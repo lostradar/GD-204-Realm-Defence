@@ -1,0 +1,39 @@
+using UnityEngine;
+using TMPro;
+
+public class CastleHealth : MonoBehaviour
+{
+    public TMP_Text healthText;// Text that changes the health variable, can be changed to a bar at a later date
+    public GameObject failCanvas; // Assigned in inspector
+    public GameObject baseCanvas; // Assigned in inspector
+    public int castleHealth;// This is the castle health
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        healthText.text = "Castle Health: " + castleHealth;// Updating the heath text
+    }
+    // Handles how the castle takes damage from enemy units
+    public void TakeDamage(int damage)
+    {
+        castleHealth -= damage;
+        Debug.Log("Castle Health: " + castleHealth);
+        if (castleHealth <= 0)
+        {
+            Debug.Log("Castle Destroyed!");
+            ShowFailCanvas();
+        }
+    }
+    public void ShowFailCanvas()
+
+    {
+        Time.timeScale = 0f;
+        failCanvas.SetActive(true);
+        baseCanvas.SetActive(false);
+    }
+
+}

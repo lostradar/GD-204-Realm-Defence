@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Unity Projects\\GD204\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|e:\\unity projects\\gd204\\assets\\scripts from xavier\\castlehealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts from xavier\\castlehealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|E:\\Unity Projects\\GD204\\assets\\scripts from xavier\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts from xavier\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CastleHealth.cs",
+              "DocumentMoniker": "E:\\Unity Projects\\GD204\\Assets\\Scripts from Xavier\\CastleHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts from Xavier\\CastleHealth.cs",
+              "ToolTip": "E:\\Unity Projects\\GD204\\Assets\\Scripts from Xavier\\CastleHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts from Xavier\\CastleHealth.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA1wCEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T13:49:37.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LevelManager.cs",
+              "DocumentMoniker": "E:\\Unity Projects\\GD204\\Assets\\Scripts from Xavier\\LevelManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts from Xavier\\LevelManager.cs",
+              "ToolTip": "E:\\Unity Projects\\GD204\\Assets\\Scripts from Xavier\\LevelManager.cs",
+              "RelativeToolTip": "Assets\\Scripts from Xavier\\LevelManager.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T13:31:51.598Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
