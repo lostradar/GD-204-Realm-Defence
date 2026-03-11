@@ -790,7 +790,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!50 &244048402
 Rigidbody2D:
   serializedVersion: 5
@@ -4614,7 +4614,7 @@ MonoBehaviour:
   healthText: {fileID: 96489285}
   failCanvas: {fileID: 142284040}
   baseCanvas: {fileID: 1717228813}
-  castleHealth: 9999
+  castleHealth: 250
 --- !u!1 &2012108354
 GameObject:
   m_ObjectHideFlags: 0
