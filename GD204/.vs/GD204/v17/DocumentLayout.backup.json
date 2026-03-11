@@ -1,18 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Unity Projects\\GD204\\",
+  "WorkspaceRootPath": "C:\\Users\\Xav\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity Projects\\GD204\\assets\\placeholderenemyscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\placeholderenemyscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|c:\\users\\xav\\documents\\github\\gd-204-realm-defence\\gd204\\assets\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|e:\\unity projects\\gd204\\assets\\scripts from xavier\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts from xavier\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity Projects\\GD204\\assets\\castlehealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\castlehealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|c:\\users\\xav\\documents\\github\\gd-204-realm-defence\\gd204\\assets\\turret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\turret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,49 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "LevelManager.cs",
-              "DocumentMoniker": "E:\\Unity Projects\\GD204\\Assets\\Scripts from Xavier\\LevelManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts from Xavier\\LevelManager.cs",
-              "ToolTip": "E:\\Unity Projects\\GD204\\Assets\\Scripts from Xavier\\LevelManager.cs",
-              "RelativeToolTip": "Assets\\Scripts from Xavier\\LevelManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
+              "Title": "Turret.cs",
+              "DocumentMoniker": "C:\\Users\\Xav\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Turret.cs",
+              "RelativeDocumentMoniker": "Assets\\Turret.cs",
+              "ToolTip": "C:\\Users\\Xav\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Turret.cs",
+              "RelativeToolTip": "Assets\\Turret.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T13:31:51.598Z",
+              "WhenOpened": "2026-03-11T17:48:56.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "C:\\Users\\Xav\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Bullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Bullet.cs",
+              "ToolTip": "C:\\Users\\Xav\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Bullet.cs",
+              "RelativeToolTip": "Assets\\Bullet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T17:41:26.938Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PlaceHolderEnemyScript.cs",
-              "DocumentMoniker": "E:\\Unity Projects\\GD204\\Assets\\PlaceHolderEnemyScript.cs",
-              "RelativeDocumentMoniker": "Assets\\PlaceHolderEnemyScript.cs",
-              "ToolTip": "E:\\Unity Projects\\GD204\\Assets\\PlaceHolderEnemyScript.cs",
-              "RelativeToolTip": "Assets\\PlaceHolderEnemyScript.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAYAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T12:56:31.033Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CastleHealth.cs",
-              "DocumentMoniker": "E:\\Unity Projects\\GD204\\Assets\\CastleHealth.cs",
-              "RelativeDocumentMoniker": "Assets\\CastleHealth.cs",
-              "ToolTip": "E:\\Unity Projects\\GD204\\Assets\\CastleHealth.cs",
-              "RelativeToolTip": "Assets\\CastleHealth.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T12:35:04.65Z"
             }
           ]
         }
