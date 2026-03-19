@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Xav\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|c:\\users\\xav\\documents\\github\\gd-204-realm-defence\\gd204\\assets\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|c:\\users\\xav\\documents\\github\\gd-204-realm-defence\\gd204\\assets\\plaaceholders\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\plaaceholders\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|c:\\users\\xav\\documents\\github\\gd-204-realm-defence\\gd204\\assets\\fire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\fire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|C:\\Users\\Xav\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\assets\\turret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\turret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|c:\\users\\xav\\documents\\github\\gd-204-realm-defence\\gd204\\assets\\enemyattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\enemyattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Fire.cs",
-              "DocumentMoniker": "C:\\Users\\Xav\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Fire.cs",
-              "RelativeDocumentMoniker": "Assets\\Fire.cs",
-              "ToolTip": "C:\\Users\\Xav\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Fire.cs",
-              "RelativeToolTip": "Assets\\Fire.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T18:18:09.053Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Bullet.cs",
-              "DocumentMoniker": "C:\\Users\\Xav\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Bullet.cs",
-              "RelativeDocumentMoniker": "Assets\\Bullet.cs",
-              "ToolTip": "C:\\Users\\Xav\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Bullet.cs",
-              "RelativeToolTip": "Assets\\Bullet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Xav\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Plaaceholders\\Bullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Plaaceholders\\Bullet.cs",
+              "ToolTip": "C:\\Users\\Xav\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Plaaceholders\\Bullet.cs",
+              "RelativeToolTip": "Assets\\Plaaceholders\\Bullet.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCMAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T17:41:26.938Z",
+              "WhenOpened": "2026-03-19T09:59:02.826Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Turret.cs",
-              "DocumentMoniker": "C:\\Users\\Xav\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Turret.cs",
-              "RelativeDocumentMoniker": "Assets\\Turret.cs",
-              "ToolTip": "C:\\Users\\Xav\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Turret.cs",
-              "RelativeToolTip": "Assets\\Turret.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "EnemyAttributes.cs",
+              "DocumentMoniker": "C:\\Users\\Xav\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\EnemyAttributes.cs",
+              "RelativeDocumentMoniker": "Assets\\EnemyAttributes.cs",
+              "ToolTip": "C:\\Users\\Xav\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\EnemyAttributes.cs",
+              "RelativeToolTip": "Assets\\EnemyAttributes.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBcAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T17:48:56.44Z"
+              "WhenOpened": "2026-03-19T09:54:15.383Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",

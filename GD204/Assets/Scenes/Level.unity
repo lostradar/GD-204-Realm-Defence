@@ -790,7 +790,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!50 &244048402
 Rigidbody2D:
   serializedVersion: 5
@@ -1103,8 +1103,8 @@ GameObject:
   m_Component:
   - component: {fileID: 274653142}
   - component: {fileID: 274653141}
-  - component: {fileID: 274653143}
   - component: {fileID: 274653144}
+  - component: {fileID: 274653146}
   - component: {fileID: 274653145}
   m_Layer: 0
   m_Name: Enemy type two Placeholder
@@ -1183,21 +1183,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &274653143
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 274653140}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e49cbfd673019524d9ba1824e1afd1bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 3
-  damage: 80
-  eHealth: 10
 --- !u!61 &274653144
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1271,6 +1256,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &274653146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 274653140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e98d1a2d8391dd4a954eb0e6eb112b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementSpeed: 0.2
+  health: 100
+  damage: 10
 --- !u!1 &285087098
 GameObject:
   m_ObjectHideFlags: 0
