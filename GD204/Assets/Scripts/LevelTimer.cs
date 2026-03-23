@@ -7,6 +7,10 @@ public class LevelTimer : MonoBehaviour
     private float timeElapsed = 0f;
     private bool isTimerRunning = false;
 
+    // Time Gates for enemies
+    public EnemySpawner spawner;
+    public float addSecondEnemyToPool = 30f;
+
     void Start()
     {
         // Starts the timer as soon as the level begins
@@ -19,7 +23,13 @@ public class LevelTimer : MonoBehaviour
         {
             timeElapsed += Time.deltaTime;
             DisplayTime(timeElapsed);
+
+            if(timeElapsed >= addSecondEnemyToPool)
+            {
+                spawner.canSpawnSecondEnemy = true;
+            }
         }
+        
     }
 
     void DisplayTime(float timeToDisplay)
