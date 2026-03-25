@@ -1,30 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Xav\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\",
+  "WorkspaceRootPath": "D:\\GD-204-Realm-Defence-main\\GD-204-Realm-Defence-main (1)\\GD-204-Realm-Defence-main\\GD204\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|C:\\Users\\Xav\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\assets\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|D:\\GD-204-Realm-Defence-main\\GD-204-Realm-Defence-main (1)\\GD-204-Realm-Defence-main\\GD204\\assets\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|c:\\users\\xav\\documents\\github\\gd-204-realm-defence\\gd204\\assets\\mapchooser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\mapchooser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|C:\\Users\\Xav\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\assets\\scripts\\leveltimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\leveltimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|c:\\users\\xav\\documents\\github\\gd-204-realm-defence\\gd204\\assets\\scripts\\enemyattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|d:\\gd-204-realm-defence-main\\gd-204-realm-defence-main (1)\\gd-204-realm-defence-main\\gd204\\assets\\scripts\\enemyattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|C:\\Users\\Xav\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\assets\\scripts\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|D:\\GD-204-Realm-Defence-main\\GD-204-Realm-Defence-main (1)\\GD-204-Realm-Defence-main\\GD204\\assets\\scripts\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|C:\\Users\\Xav\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\assets\\plaaceholders\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\plaaceholders\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|D:\\GD-204-Realm-Defence-main\\GD-204-Realm-Defence-main (1)\\GD-204-Realm-Defence-main\\GD204\\assets\\scripts\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|D:\\GD-204-Realm-Defence-main\\GD-204-Realm-Defence-main (1)\\GD-204-Realm-Defence-main\\GD204\\assets\\scripts\\leveltimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\leveltimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,87 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EnemyAttributes.cs",
-              "DocumentMoniker": "C:\\Users\\Xav\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\EnemyAttributes.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyAttributes.cs",
-              "ToolTip": "C:\\Users\\Xav\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\EnemyAttributes.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EnemyAttributes.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T16:22:00.106Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MapChooser.cs",
-              "DocumentMoniker": "C:\\Users\\Xav\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\MapChooser.cs",
-              "RelativeDocumentMoniker": "Assets\\MapChooser.cs",
-              "ToolTip": "C:\\Users\\Xav\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\MapChooser.cs",
-              "RelativeToolTip": "Assets\\MapChooser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAgwAgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T15:47:01.946Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "EnemySpawner.cs",
-              "DocumentMoniker": "C:\\Users\\Xav\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\EnemySpawner.cs",
+              "DocumentMoniker": "D:\\GD-204-Realm-Defence-main\\GD-204-Realm-Defence-main (1)\\GD-204-Realm-Defence-main\\GD204\\Assets\\EnemySpawner.cs",
               "RelativeDocumentMoniker": "Assets\\EnemySpawner.cs",
-              "ToolTip": "C:\\Users\\Xav\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\EnemySpawner.cs",
+              "ToolTip": "D:\\GD-204-Realm-Defence-main\\GD-204-Realm-Defence-main (1)\\GD-204-Realm-Defence-main\\GD204\\Assets\\EnemySpawner.cs",
               "RelativeToolTip": "Assets\\EnemySpawner.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAuwCMAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwAIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T15:29:03.371Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LevelTimer.cs",
-              "DocumentMoniker": "C:\\Users\\Xav\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\LevelTimer.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\LevelTimer.cs",
-              "ToolTip": "C:\\Users\\Xav\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\LevelTimer.cs",
-              "RelativeToolTip": "Assets\\Scripts\\LevelTimer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T13:36:37.633Z",
+              "WhenOpened": "2026-03-25T18:52:28.519Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "LevelManager.cs",
-              "DocumentMoniker": "C:\\Users\\Xav\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\LevelManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\LevelManager.cs",
-              "ToolTip": "C:\\Users\\Xav\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\LevelManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\LevelManager.cs",
+              "Title": "LevelTimer.cs",
+              "DocumentMoniker": "D:\\GD-204-Realm-Defence-main\\GD-204-Realm-Defence-main (1)\\GD-204-Realm-Defence-main\\GD204\\Assets\\Scripts\\LevelTimer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LevelTimer.cs",
+              "ToolTip": "D:\\GD-204-Realm-Defence-main\\GD-204-Realm-Defence-main (1)\\GD-204-Realm-Defence-main\\GD204\\Assets\\Scripts\\LevelTimer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LevelTimer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T13:35:33.065Z"
+              "WhenOpened": "2026-03-25T18:44:30.733Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Bullet.cs",
-              "DocumentMoniker": "C:\\Users\\Xav\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Plaaceholders\\Bullet.cs",
-              "RelativeDocumentMoniker": "Assets\\Plaaceholders\\Bullet.cs",
-              "ToolTip": "C:\\Users\\Xav\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Plaaceholders\\Bullet.cs",
-              "RelativeToolTip": "Assets\\Plaaceholders\\Bullet.cs",
+              "DocumentIndex": 2,
+              "Title": "LevelManager.cs",
+              "DocumentMoniker": "D:\\GD-204-Realm-Defence-main\\GD-204-Realm-Defence-main (1)\\GD-204-Realm-Defence-main\\GD204\\Assets\\Scripts\\LevelManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LevelManager.cs",
+              "ToolTip": "D:\\GD-204-Realm-Defence-main\\GD-204-Realm-Defence-main (1)\\GD-204-Realm-Defence-main\\GD204\\Assets\\Scripts\\LevelManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LevelManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T12:23:36.297Z"
+              "WhenOpened": "2026-03-25T18:44:25.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Healthbar.cs",
+              "DocumentMoniker": "D:\\GD-204-Realm-Defence-main\\GD-204-Realm-Defence-main (1)\\GD-204-Realm-Defence-main\\GD204\\Assets\\Scripts\\Healthbar.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Healthbar.cs",
+              "ToolTip": "D:\\GD-204-Realm-Defence-main\\GD-204-Realm-Defence-main (1)\\GD-204-Realm-Defence-main\\GD204\\Assets\\Scripts\\Healthbar.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Healthbar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T18:12:36.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnemyAttributes.cs",
+              "DocumentMoniker": "D:\\GD-204-Realm-Defence-main\\GD-204-Realm-Defence-main (1)\\GD-204-Realm-Defence-main\\GD204\\Assets\\Scripts\\EnemyAttributes.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyAttributes.cs",
+              "ToolTip": "D:\\GD-204-Realm-Defence-main\\GD-204-Realm-Defence-main (1)\\GD-204-Realm-Defence-main\\GD204\\Assets\\Scripts\\EnemyAttributes.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyAttributes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T18:05:44.101Z",
+              "EditorCaption": ""
             }
           ]
         }
