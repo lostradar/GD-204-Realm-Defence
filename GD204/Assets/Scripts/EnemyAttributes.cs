@@ -3,13 +3,19 @@ using UnityEngine;
 public class EnemyAttributes : MonoBehaviour
 {
 
+    public Healthbar _healthbar;
     public float movementSpeed = 0.2f;
+    private float currentHealth;
+    private float maxHealth;
     public int health = 100;
     public int damage = 10;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        maxHealth = health;
+        currentHealth = health;
+        _healthbar.UpdateHealthBar(maxHealth, currentHealth);
     }
 
     // Update is called once per frame
@@ -24,6 +30,8 @@ public class EnemyAttributes : MonoBehaviour
     public void TakeDamage(int damage)
     {
         health -= damage;
+        currentHealth = health;
+        _healthbar.UpdateHealthBar(maxHealth, currentHealth);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
