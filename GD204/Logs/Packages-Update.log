@@ -59,11 +59,3 @@ The following packages were updated:
   com.unity.ide.visualstudio from version 2.0.25 to 2.0.26
   com.unity.inputsystem from version 1.14.2 to 1.18.0
   com.unity.timeline from version 1.8.9 to 1.8.10
-
-=== Wed Mar 25 17:58:34 2026
-
-Packages were changed.
-Update Mode: updateDependencies
-
-The following packages were updated:
-  com.unity.render-pipelines.universal from version 17.0.4 to 17.1.0
