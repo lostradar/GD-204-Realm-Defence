@@ -9,6 +9,8 @@ public class EnemyAttributes : MonoBehaviour
     public int health = 100;
     public int damage = 10;
 
+    public DamageIndicator damageIndicator; 
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -31,6 +33,11 @@ public class EnemyAttributes : MonoBehaviour
         health -= damage;
         currentHealth = health;
         _healthbar.UpdateHealthBar(maxHealth, currentHealth);
+
+        if (damageIndicator != null)
+        {
+            damageIndicator.ShowDamage(damage);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
