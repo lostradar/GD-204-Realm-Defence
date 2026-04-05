@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: be8cdf3f54c890b438f69c2be2cbd48b
+guid: 493f0b0de3a89f8448ece93bba4cb0dc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8094316431438515864
-    second: Realm Defence - Water Status Effect_0
+      213: 420207247699026884
+    second: Realm Defence - Castle Health - Mid_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Realm Defence - Water Status Effect_0
+      name: Realm Defence - Castle Health - Mid_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 512
-        height: 512
+        x: 7
+        y: 25
+        width: 441
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 861ff7457163baf80800000000000000
-      internalID: -8094316431438515864
+      spriteID: 4c32523f340e4d500800000000000000
+      internalID: 420207247699026884
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Realm Defence - Water Status Effect_0: -8094316431438515864
+      Realm Defence - Castle Health - Mid_0: 420207247699026884
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
