@@ -4,7 +4,7 @@ using TMPro;
 public class LevelTimer : MonoBehaviour
 {
     public TextMeshProUGUI timerText; 
-    private float timeElapsed = 0f;
+    public float timeElapsed = 0f;
     private bool isTimerRunning = false;
 
     // Time Gates for enemies
@@ -24,10 +24,10 @@ public class LevelTimer : MonoBehaviour
             timeElapsed += Time.deltaTime;
             DisplayTime(timeElapsed);
 
-            if(timeElapsed >= addSecondEnemyToPool)
+           /* LOU if(timeElapsed >= addSecondEnemyToPool)
             {
                 spawner.canSpawnSecondEnemy = true;
-            }
+            } */
         }
         
     }

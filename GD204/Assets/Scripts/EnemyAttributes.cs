@@ -2,12 +2,15 @@ using UnityEngine;
 
 public class EnemyAttributes : MonoBehaviour
 {
+
+    public Bullet Bullet;
     public Healthbar _healthbar;
     public float movementSpeed = 0.2f;
     private float currentHealth;
     private float maxHealth;
     public int health = 100;
     public int damage = 10;
+    public bool isDrenched = false;
 
     public DamageIndicator damageIndicator; 
 
@@ -27,6 +30,14 @@ public class EnemyAttributes : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        if (isDrenched == true)
+        {
+            movementSpeed = 0.1f;
+        }
+        if (isDrenched == false)
+        {
+            movementSpeed = 0.2f;
+        }
     }
     public void TakeDamage(int damage)
     {
@@ -38,7 +49,9 @@ public class EnemyAttributes : MonoBehaviour
         {
             damageIndicator.ShowDamage(damage);
         }
+
     }
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

@@ -1403,6 +1403,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnInterval: 2
+  LevelTimer: {fileID: 0}
   enemyToSpawn:
   - {fileID: 5923453369974223148, guid: 806f0a84746080140bd493f612f96570, type: 3}
   - {fileID: 4402937984174264241, guid: 1f7080cd51344e44c8cce76297420b6e, type: 3}
@@ -1420,6 +1421,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerText: {fileID: 702575672}
+  timeElapsed: 0
   spawner: {fileID: 475704663}
   addSecondEnemyToPool: 30
 --- !u!1 &517544037
@@ -4451,7 +4453,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   range: 6
   fireRate: 1
-  bulletPrefab: {fileID: 1572155962753987608, guid: 9e3d144010b0ca5468f69f0d1075cd53, type: 3}
+  bulletPrefab: {fileID: 1572155962753987608, guid: 3d7231016bc1ac142b5bb021aabf8db2, type: 3}
   firePoint: {fileID: 312825414}
 --- !u!1 &1620990347
 GameObject:

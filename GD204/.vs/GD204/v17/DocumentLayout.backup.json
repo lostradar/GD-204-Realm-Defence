@@ -1,14 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\GD-204-Realm-Defence-main 020426\\GD-204-Realm-Defence-main\\GD204\\",
+  "WorkspaceRootPath": "C:\\Users\\louie\\OneDrive\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|d:\\gd-204-realm-defence-main 020426\\gd-204-realm-defence-main\\gd204\\assets\\scripts\\enemyattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|c:\\users\\louie\\onedrive\\documents\\github\\gd-204-realm-defence\\gd204\\assets\\plaaceholders\\placeholderenemyscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\plaaceholders\\placeholderenemyscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|c:\\users\\louie\\onedrive\\documents\\github\\gd-204-realm-defence\\gd204\\assets\\scripts\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|C:\\Users\\louie\\OneDrive\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\assets\\scripts\\damageindicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\damageindicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|C:\\Users\\louie\\OneDrive\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\assets\\scripts\\enemyattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|d:\\gd-204-realm-defence-main 020426\\gd-204-realm-defence-main\\gd204\\assets\\scripts\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|c:\\users\\louie\\onedrive\\documents\\github\\gd-204-realm-defence\\gd204\\assets\\plaaceholders\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\plaaceholders\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|c:\\users\\louie\\onedrive\\documents\\github\\gd-204-realm-defence\\gd204\\assets\\plaaceholders\\water.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\plaaceholders\\water.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|C:\\Users\\louie\\OneDrive\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\assets\\plaaceholders\\turret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\plaaceholders\\turret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|c:\\users\\louie\\onedrive\\documents\\github\\gd-204-realm-defence\\gd204\\assets\\scripts\\swordswipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\swordswipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|c:\\users\\louie\\onedrive\\documents\\github\\gd-204-realm-defence\\gd204\\assets\\scripts\\leveltimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\leveltimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|c:\\users\\louie\\onedrive\\documents\\github\\gd-204-realm-defence\\gd204\\assets\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|c:\\users\\louie\\onedrive\\documents\\github\\gd-204-realm-defence\\gd204\\assets\\scripts\\castlehealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\castlehealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|C:\\Users\\louie\\OneDrive\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\assets\\plaaceholders\\fire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\plaaceholders\\fire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +58,161 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EnemyAttributes.cs",
-              "DocumentMoniker": "D:\\GD-204-Realm-Defence-main 020426\\GD-204-Realm-Defence-main\\GD204\\Assets\\Scripts\\EnemyAttributes.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyAttributes.cs",
-              "ToolTip": "D:\\GD-204-Realm-Defence-main 020426\\GD-204-Realm-Defence-main\\GD204\\Assets\\Scripts\\EnemyAttributes.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EnemyAttributes.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwCAAAAA9AAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "SwordSwipe.cs",
+              "DocumentMoniker": "C:\\Users\\louie\\OneDrive\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\SwordSwipe.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SwordSwipe.cs",
+              "ToolTip": "C:\\Users\\louie\\OneDrive\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\SwordSwipe.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SwordSwipe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T13:06:15.131Z",
+              "WhenOpened": "2026-04-07T12:36:41.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LevelTimer.cs",
+              "DocumentMoniker": "C:\\Users\\louie\\OneDrive\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\LevelTimer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LevelTimer.cs",
+              "ToolTip": "C:\\Users\\louie\\OneDrive\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\LevelTimer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LevelTimer.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T12:36:37.032Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Healthbar.cs",
-              "DocumentMoniker": "D:\\GD-204-Realm-Defence-main 020426\\GD-204-Realm-Defence-main\\GD204\\Assets\\Scripts\\Healthbar.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Healthbar.cs",
-              "ToolTip": "D:\\GD-204-Realm-Defence-main 020426\\GD-204-Realm-Defence-main\\GD204\\Assets\\Scripts\\Healthbar.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Healthbar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAQAAAAAAAAAA==",
+              "Title": "LevelManager.cs",
+              "DocumentMoniker": "C:\\Users\\louie\\OneDrive\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\LevelManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LevelManager.cs",
+              "ToolTip": "C:\\Users\\louie\\OneDrive\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\LevelManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LevelManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T13:05:52.114Z",
+              "WhenOpened": "2026-04-07T12:36:29.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EnemySpawner.cs",
+              "DocumentMoniker": "C:\\Users\\louie\\OneDrive\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\EnemySpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemySpawner.cs",
+              "ToolTip": "C:\\Users\\louie\\OneDrive\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\EnemySpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemySpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T12:36:23.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CastleHealth.cs",
+              "DocumentMoniker": "C:\\Users\\louie\\OneDrive\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\CastleHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CastleHealth.cs",
+              "ToolTip": "C:\\Users\\louie\\OneDrive\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\CastleHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CastleHealth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T12:36:08.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlaceHolderEnemyScript.cs",
+              "DocumentMoniker": "C:\\Users\\louie\\OneDrive\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Plaaceholders\\PlaceHolderEnemyScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Plaaceholders\\PlaceHolderEnemyScript.cs",
+              "ToolTip": "C:\\Users\\louie\\OneDrive\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Plaaceholders\\PlaceHolderEnemyScript.cs",
+              "RelativeToolTip": "Assets\\Plaaceholders\\PlaceHolderEnemyScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T12:35:06.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Water.cs",
+              "DocumentMoniker": "C:\\Users\\louie\\OneDrive\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Plaaceholders\\Water.cs",
+              "RelativeDocumentMoniker": "Assets\\Plaaceholders\\Water.cs",
+              "ToolTip": "C:\\Users\\louie\\OneDrive\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Plaaceholders\\Water.cs",
+              "RelativeToolTip": "Assets\\Plaaceholders\\Water.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T12:33:04.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "C:\\Users\\louie\\OneDrive\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Plaaceholders\\Bullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Plaaceholders\\Bullet.cs",
+              "ToolTip": "C:\\Users\\louie\\OneDrive\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Plaaceholders\\Bullet.cs",
+              "RelativeToolTip": "Assets\\Plaaceholders\\Bullet.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAUwCIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T12:29:46.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Fire.cs",
+              "DocumentMoniker": "C:\\Users\\louie\\OneDrive\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Plaaceholders\\Fire.cs",
+              "RelativeDocumentMoniker": "Assets\\Plaaceholders\\Fire.cs",
+              "ToolTip": "C:\\Users\\louie\\OneDrive\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Plaaceholders\\Fire.cs",
+              "RelativeToolTip": "Assets\\Plaaceholders\\Fire.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T12:29:21.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Turret.cs",
+              "DocumentMoniker": "C:\\Users\\louie\\OneDrive\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Plaaceholders\\Turret.cs",
+              "RelativeDocumentMoniker": "Assets\\Plaaceholders\\Turret.cs",
+              "ToolTip": "C:\\Users\\louie\\OneDrive\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Plaaceholders\\Turret.cs",
+              "RelativeToolTip": "Assets\\Plaaceholders\\Turret.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T12:29:05.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnemyAttributes.cs",
+              "DocumentMoniker": "C:\\Users\\louie\\OneDrive\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\EnemyAttributes.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyAttributes.cs",
+              "ToolTip": "C:\\Users\\louie\\OneDrive\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\EnemyAttributes.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyAttributes.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T16:43:02.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DamageIndicator.cs",
+              "DocumentMoniker": "C:\\Users\\louie\\OneDrive\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\DamageIndicator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DamageIndicator.cs",
+              "ToolTip": "C:\\Users\\louie\\OneDrive\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\DamageIndicator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DamageIndicator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T16:30:14.518Z",
               "EditorCaption": ""
             }
           ]

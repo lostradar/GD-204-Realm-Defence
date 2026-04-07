@@ -13,6 +13,8 @@ public class LevelManager : MonoBehaviour
     {
         SceneManager.LoadScene("Level");
     }
+
+
     public void Pause()
     {
       Time.timeScale = 0f;  

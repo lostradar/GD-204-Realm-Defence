@@ -8,6 +8,10 @@ public class Bullet : MonoBehaviour
     //fire bullet checker
     public bool isFire;
     public GameObject firePrefab;
+
+    //water bullet checker
+    public bool isWater;
+    public GameObject waterPrefab;
     // Location of targeted enemy
     Transform target;
 
@@ -28,12 +32,21 @@ public class Bullet : MonoBehaviour
                 {
                     enemy.TakeDamage(damage);
                 }
+                if (tag == "WaterProj")
+                {
+                    enemy.isDrenched = true;
+                }
             }
 
 
                 if (isFire)
             {
                Instantiate(firePrefab, transform.position, Quaternion.identity);
+            }
+
+            if (isWater)
+            {
+                Instantiate(waterPrefab, transform.position, Quaternion.identity);
             }
 
             Destroy(gameObject);
