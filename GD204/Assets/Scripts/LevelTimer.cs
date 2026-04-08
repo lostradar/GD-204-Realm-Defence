@@ -4,7 +4,7 @@ using TMPro;
 public class LevelTimer : MonoBehaviour
 {
     public TextMeshProUGUI timerText; 
-    private float timeElapsed = 0f;
+    public static float timeElapsed = 0f;
     private bool isTimerRunning = false;
 
     // Time Gates for enemies
