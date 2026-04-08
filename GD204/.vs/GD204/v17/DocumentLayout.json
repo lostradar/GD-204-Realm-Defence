@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|c:\\users\\christopher\\documents\\github\\gd-204-realm-defence\\gd204\\assets\\scripts\\enemyattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|c:\\users\\christopher\\documents\\github\\gd-204-realm-defence\\gd204\\assets\\scripts\\mapchooser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mapchooser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|c:\\users\\christopher\\documents\\github\\gd-204-realm-defence\\gd204\\assets\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|c:\\users\\christopher\\documents\\github\\gd-204-realm-defence\\gd204\\assets\\scripts\\castlehealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\castlehealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|c:\\users\\christopher\\documents\\github\\gd-204-realm-defence\\gd204\\assets\\scripts\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EnemySpawner.cs",
-              "DocumentMoniker": "C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\EnemySpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemySpawner.cs",
-              "ToolTip": "C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\EnemySpawner.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EnemySpawner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "LevelManager.cs",
+              "DocumentMoniker": "C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\LevelManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LevelManager.cs",
+              "ToolTip": "C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\LevelManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LevelManager.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwCQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T18:21:28.825Z",
+              "WhenOpened": "2026-04-08T18:57:35.428Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EnemyAttributes.cs",
-              "DocumentMoniker": "C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\EnemyAttributes.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyAttributes.cs",
-              "ToolTip": "C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\EnemyAttributes.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EnemyAttributes.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Title": "MapChooser.cs",
+              "DocumentMoniker": "C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\MapChooser.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MapChooser.cs",
+              "ToolTip": "C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\MapChooser.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MapChooser.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwA0AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T16:58:14.929Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CastleHealth.cs",
-              "DocumentMoniker": "C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\CastleHealth.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CastleHealth.cs",
-              "ToolTip": "C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\CastleHealth.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CastleHealth.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAADwv0kAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T15:37:45.869Z",
+              "WhenOpened": "2026-04-08T18:55:49.158Z",
               "EditorCaption": ""
             }
           ]
