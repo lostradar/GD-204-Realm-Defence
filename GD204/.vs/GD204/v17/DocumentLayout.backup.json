@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\GD-204-Realm-Defence-main 020426\\GD-204-Realm-Defence-main\\GD204\\",
+  "WorkspaceRootPath": "C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|d:\\gd-204-realm-defence-main 020426\\gd-204-realm-defence-main\\gd204\\assets\\scripts\\enemyattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|c:\\users\\christopher\\documents\\github\\gd-204-realm-defence\\gd204\\assets\\scripts\\castlehealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\castlehealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|d:\\gd-204-realm-defence-main 020426\\gd-204-realm-defence-main\\gd204\\assets\\scripts\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|c:\\users\\christopher\\documents\\github\\gd-204-realm-defence\\gd204\\assets\\scripts\\wallcondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wallcondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EnemyAttributes.cs",
-              "DocumentMoniker": "D:\\GD-204-Realm-Defence-main 020426\\GD-204-Realm-Defence-main\\GD204\\Assets\\Scripts\\EnemyAttributes.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyAttributes.cs",
-              "ToolTip": "D:\\GD-204-Realm-Defence-main 020426\\GD-204-Realm-Defence-main\\GD204\\Assets\\Scripts\\EnemyAttributes.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EnemyAttributes.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwCAAAAA9AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "WallCondition.cs",
+              "DocumentMoniker": "C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\WallCondition.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WallCondition.cs",
+              "ToolTip": "C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\WallCondition.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WallCondition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T13:06:15.131Z",
+              "WhenOpened": "2026-04-08T15:38:56.949Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Healthbar.cs",
-              "DocumentMoniker": "D:\\GD-204-Realm-Defence-main 020426\\GD-204-Realm-Defence-main\\GD204\\Assets\\Scripts\\Healthbar.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Healthbar.cs",
-              "ToolTip": "D:\\GD-204-Realm-Defence-main 020426\\GD-204-Realm-Defence-main\\GD204\\Assets\\Scripts\\Healthbar.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Healthbar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAQAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "CastleHealth.cs",
+              "DocumentMoniker": "C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\CastleHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CastleHealth.cs",
+              "ToolTip": "C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\CastleHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CastleHealth.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T13:05:52.114Z",
+              "WhenOpened": "2026-04-08T15:37:45.869Z",
               "EditorCaption": ""
             }
           ]
