@@ -13,7 +13,7 @@ public class MapChooser : MonoBehaviour
 
         int randomIndex;
 
-        // Check if we are retrying
+        
         if (LevelManager.isRetry && lastMapIndex != -1)
         {
             randomIndex = lastMapIndex;

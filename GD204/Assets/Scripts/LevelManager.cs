@@ -12,6 +12,7 @@ public class LevelManager : MonoBehaviour
     //Loading the game scene (Where gameplay happens)
     public void LoadGameLevel()
     {
+        LevelTimer.timeElapsed = 0f;
         SceneManager.LoadScene("Level");
     }
     public void Pause()
@@ -25,13 +26,13 @@ public class LevelManager : MonoBehaviour
 
     public void AttemptRetry()
     {
-        // 1. Set the flag first
+       
         isRetry = true;
 
-        // 2. Log it to prove it's happening
+        
         Debug.Log("RETRY BUTTON PRESSED! Flag is: " + isRetry);
 
-        // 3. Then load the scene
+        LevelTimer.timeElapsed = 0f; 
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }

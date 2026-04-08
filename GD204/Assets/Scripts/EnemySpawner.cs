@@ -3,7 +3,12 @@ using UnityEngine;
 public class EnemySpawner : MonoBehaviour
 {
 
-    public float spawnInterval = 2f;
+    public float initialSpawnInterval = 2f;
+    public float minimumSpawnInterval = 0.5f;
+    public float speedUpPerFiveSeconds = 0.05f;
+
+    private float currentSpawnInterval;
+    private float spawnTimer;
 
     private float screenTopY;
     private float screenLeftX;
@@ -26,7 +31,25 @@ public class EnemySpawner : MonoBehaviour
         screenLeftX = cam.ViewportToWorldPoint(new Vector3(0, 0, 0)).x;
         screenRightX = cam.ViewportToWorldPoint(new Vector3(1, 0, 0)).x;
 
-        InvokeRepeating(nameof(SpawnEnemy), 1f, spawnInterval);
+        //InvokeRepeating(nameof(SpawnEnemy), 1f, spawnInterval);
+
+        currentSpawnInterval = initialSpawnInterval;
+    }
+
+    void Update()
+    {
+        int fiveSecondCycles = Mathf.FloorToInt(LevelTimer.timeElapsed / 5f);
+
+        currentSpawnInterval = initialSpawnInterval - (fiveSecondCycles * speedUpPerFiveSeconds);
+
+        currentSpawnInterval = Mathf.Max(currentSpawnInterval, minimumSpawnInterval);
+
+        spawnTimer += Time.deltaTime;
+        if (spawnTimer >= currentSpawnInterval)
+        {
+            SpawnEnemy();
+            spawnTimer = 0f; 
+        }
     }
 
     void PickEnemyToSpawn()

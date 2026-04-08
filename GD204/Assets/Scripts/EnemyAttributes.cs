@@ -9,14 +9,28 @@ public class EnemyAttributes : MonoBehaviour
     public int health = 100;
     public int damage = 10;
 
+    public float healthIncreasePerSecond = 0.001f;
+
     public DamageIndicator damageIndicator; 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        maxHealth = health;
-        currentHealth = health;
+        int fiveSecondCycles = Mathf.FloorToInt(LevelTimer.timeElapsed / 5f);
+
+
+        float bonusHealth = fiveSecondCycles * healthIncreasePerSecond;
+
+        maxHealth = health + (int)bonusHealth;
+        currentHealth = maxHealth;
+
+        health = (int)maxHealth;
+
+        //maxHealth = health;
+        //currentHealth = health;
         _healthbar.UpdateHealthBar(maxHealth, currentHealth);
+
+        Debug.Log("Spawned with " + maxHealth + " HP at time: " + LevelTimer.timeElapsed);
     }
 
     // Update is called once per frame
