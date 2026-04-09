@@ -4,12 +4,13 @@ public class Bullet : MonoBehaviour
 {
     // Bullet speed
     public float speed = 10f;
-    int damage = 10;
+    public int damage = 10;
     //fire bullet checker
     public bool isFire;
     public GameObject firePrefab;
     // Location of targeted enemy
     Transform target;
+    public StatusEffects.StatusType effect;
 
     // Turret uses this to set target for bullet
     public void SetTarget(Transform newTarget)
@@ -27,6 +28,11 @@ public class Bullet : MonoBehaviour
                 if (enemy != null)
                 {
                     enemy.TakeDamage(damage);
+
+                    if (Random.Range(0f, 100f) <= 50f)
+                    {
+                        enemy.ApplyStatus(effect);
+                    }
                 }
             }
 

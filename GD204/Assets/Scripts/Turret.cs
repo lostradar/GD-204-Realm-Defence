@@ -3,12 +3,25 @@ using static UnityEngine.GraphicsBuffer;
 
 public class Turret : MonoBehaviour
 {
+
+    public UnitData unitData;
+
     public float range = 6f;
     public float fireRate = 1f;
     public GameObject bulletPrefab;
     public Transform firePoint;
 
     float fireCooldown;
+
+    void Start()
+    {
+        if (unitData != null)
+        {
+            range = unitData.range;
+            fireRate = unitData.fireRate;
+            bulletPrefab = unitData.projectilePrefab;
+        }
+    }
 
     void Update()
     {
@@ -62,6 +75,13 @@ public class Turret : MonoBehaviour
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
 
         Bullet bulletScript = bullet.GetComponent<Bullet>();
-        bulletScript.SetTarget(target.transform);
+        if (bulletScript != null)
+        {
+            bulletScript.SetTarget(target.transform);
+
+            // Pass the data to the bullet script
+            bulletScript.damage = unitData.damage;
+            bulletScript.effect = unitData.effect;
+        }
     }
 }
