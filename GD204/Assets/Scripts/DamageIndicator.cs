@@ -7,6 +7,8 @@ public class DamageIndicator : MonoBehaviour
     public TextMeshProUGUI textElement;
     private Canvas myCanvas;
 
+    private Coroutine statusCoroutine;
+
     void Awake()
     {
         myCanvas = GetComponent<Canvas>();
@@ -20,8 +22,41 @@ public class DamageIndicator : MonoBehaviour
     {
         if (textElement == null) return; // Prevents the error in your screenshot
 
-        StopAllCoroutines();
+        //StopAllCoroutines();
         StartCoroutine(FlashText(amount));
+    }
+
+    public void ShowStatus(string statusName)
+    {
+        if (textElement == null) return;
+
+        if (statusCoroutine != null) StopCoroutine(statusCoroutine);
+
+        //StopAllCoroutines();
+        // We pass the string directly to the Coroutine
+        StartCoroutine(FlashStatusText(statusName));
+    }
+
+    IEnumerator FlashStatusText(string statusName)
+    {
+        textElement.text = statusName; // Use the word instead of a number
+        textElement.gameObject.SetActive(true);
+
+        float elapsed = 0;
+        float duration = 1.5f; // Status text stays slightly longer
+        Vector3 startPos = Vector3.zero;
+        Vector3 endPos = new Vector3(0, 350f, 0);
+
+        while (elapsed < duration)
+        {
+            float t = elapsed / duration;
+            t = t * t * (3f - 2f * t);
+            textElement.transform.localPosition = Vector3.Lerp(startPos, endPos, elapsed / duration);
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+
+        textElement.gameObject.SetActive(false);
     }
 
     IEnumerator FlashText(int amount)

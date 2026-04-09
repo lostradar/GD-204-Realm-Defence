@@ -37,8 +37,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.00000023841858, y: 2.000001}
-  m_SizeDelta: {x: 1080, y: 2280}
+  m_AnchoredPosition: {x: -0.137, y: 2.000001}
+  m_SizeDelta: {x: 3780.363, y: 2280}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &1415037853285948648
 Canvas:
@@ -297,6 +297,7 @@ MonoBehaviour:
   movementSpeed: 0.4
   health: 100
   damage: 10
+  healthIncreasePerSecond: 0.001
   damageIndicator: {fileID: 7851214096823021472}
 --- !u!1 &8597434979682966576
 GameObject:
@@ -332,8 +333,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00012207, y: 180}
-  m_SizeDelta: {x: 1585.3, y: 473.2}
+  m_AnchoredPosition: {x: 62, y: 180}
+  m_SizeDelta: {x: 2717, y: 473}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7107983401167951238
 CanvasRenderer:

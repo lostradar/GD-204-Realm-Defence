@@ -1,4 +1,6 @@
 using UnityEngine;
+using System.Collections;
+using static StatusEffects;
 
 public class EnemyAttributes : MonoBehaviour
 {
@@ -11,7 +13,9 @@ public class EnemyAttributes : MonoBehaviour
 
     public float healthIncreasePerSecond = 0.001f;
 
-    public DamageIndicator damageIndicator; 
+    public DamageIndicator damageIndicator;
+
+    private bool isBurning = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -63,5 +67,71 @@ public class EnemyAttributes : MonoBehaviour
             castle.TakeDamage(damage);
             Destroy(gameObject); // Destroy enemy after hitting the castle
         }
+    }
+
+    // Ensure this says PUBLIC so the Bullet can see it!
+    public void ApplyStatus(StatusEffects.StatusType status)
+    {
+        if (this == null) return;
+
+        // 1. DATA PREP
+        DamageIndicator indicator = GetComponentInChildren<DamageIndicator>();
+        string statusText = status.ToString();
+        string coloredText = statusText;
+
+        // 2. COLOR PICKER (Isolated)
+        if (status == StatusEffects.StatusType.Drenched)
+        {
+            coloredText = "<color=#00BFFF>" + statusText + "</color>";
+        }
+        else if (status == StatusEffects.StatusType.Burning)
+        {
+            coloredText = "<color=#FF4500>" + statusText + "</color>";
+        }
+        else if (status == StatusEffects.StatusType.None || status == StatusEffects.StatusType.None)
+        {
+            return; // Exit early if there's no status to show
+        }
+
+        // 3. SHOW TEXT (Happens for both!)
+        if (indicator != null)
+        {
+            indicator.ShowStatus(coloredText);
+        }
+
+        // 4. GAMEPLAY EFFECTS (Independent)
+        if (status == StatusEffects.StatusType.Drenched)
+        {
+            StopCoroutine("SlowRoutine");
+            StartCoroutine(SlowRoutine(2f, 0.5f));
+        }
+        else if (status == StatusEffects.StatusType.Burning)
+        {
+            if (!isBurning)
+            {
+                StartCoroutine(BurnRoutine(3, 5));
+            }
+        }
+    }
+
+    IEnumerator SlowRoutine(float duration, float slowAmount)
+    {
+        float originalSpeed = movementSpeed;
+        movementSpeed = originalSpeed * slowAmount;
+
+        yield return new WaitForSeconds(duration);
+
+        movementSpeed = originalSpeed;
+    }
+
+    IEnumerator BurnRoutine(int ticks, int damagePerTick)
+    {
+        isBurning = true;
+        for (int i = 0; i < ticks; i++)
+        {
+            TakeDamage(damagePerTick);
+            yield return new WaitForSeconds(1f);
+        }
+        isBurning = false;
     }
 }

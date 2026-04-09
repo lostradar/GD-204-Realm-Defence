@@ -1521,7 +1521,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6340390dcf7675b43bf7c2ab93ed23a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnInterval: 2
+  initialSpawnInterval: 2
+  minimumSpawnInterval: 0.5
+  speedUpPerFiveSeconds: 0.05
   enemyToSpawn:
   - {fileID: 5923453369974223148, guid: 806f0a84746080140bd493f612f96570, type: 3}
   - {fileID: 4402937984174264241, guid: 1f7080cd51344e44c8cce76297420b6e, type: 3}
@@ -1780,7 +1782,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &522551799
 Transform:
   m_ObjectHideFlags: 0
@@ -2058,6 +2060,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75d6ed4070240514180ebe6d0a82998f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  unitData: {fileID: 11400000, guid: e714ac12414ee4840808d0098cc31a1f, type: 2}
   range: 6
   fireRate: 1
   bulletPrefab: {fileID: 1572155962753987608, guid: 9e3d144010b0ca5468f69f0d1075cd53, type: 3}
@@ -3864,6 +3867,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75d6ed4070240514180ebe6d0a82998f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  unitData: {fileID: 11400000, guid: a30de1dd8172c844094262670a8af868, type: 2}
   range: 6
   fireRate: 1
   bulletPrefab: {fileID: 2329469993013294930, guid: 96a7413d42b78fd4192a14e81f0aafa0, type: 3}
@@ -4702,6 +4706,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75d6ed4070240514180ebe6d0a82998f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  unitData: {fileID: 11400000, guid: e714ac12414ee4840808d0098cc31a1f, type: 2}
   range: 6
   fireRate: 1
   bulletPrefab: {fileID: 1572155962753987608, guid: 9e3d144010b0ca5468f69f0d1075cd53, type: 3}
@@ -5841,7 +5846,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -7582294730401264988, guid: d19718d9146a3bc4ab0b78ec5446dca8, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.34117648, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5879,6 +5884,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75d6ed4070240514180ebe6d0a82998f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  unitData: {fileID: 11400000, guid: 5377487df9ecdee48931f5fb485c2fba, type: 2}
   range: 7.91
   fireRate: 1
   bulletPrefab: {fileID: 2329469993013294930, guid: 96a7413d42b78fd4192a14e81f0aafa0, type: 3}
