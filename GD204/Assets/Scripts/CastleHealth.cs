@@ -9,6 +9,8 @@ public class CastleHealth : MonoBehaviour
     public int castleHealth;// This is the castle health
     private int maxHealth;
 
+    public ScoreTracker scoreTracker;
+
     public GameObject healthyWall;
     public GameObject crackedWall;
     public GameObject veryCrackedWall;
@@ -41,6 +43,7 @@ public class CastleHealth : MonoBehaviour
         {
             castleHealth = 0;
             Debug.Log("Castle Destroyed!");
+            scoreTracker.Die();
             ShowFailCanvas();
         }
     }

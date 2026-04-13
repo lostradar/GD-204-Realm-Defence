@@ -11,6 +11,8 @@ public class EnemyAttributes : MonoBehaviour
     public int health = 100;
     public int damage = 10;
 
+    public int goldWorth;
+
     public float healthIncreasePerSecond = 0.001f;
 
     public DamageIndicator damageIndicator;
@@ -43,6 +45,7 @@ public class EnemyAttributes : MonoBehaviour
         transform.Translate(Vector3.down * movementSpeed * Time.deltaTime);
         if (health <= 0)
         {
+            ScoreTracker.instance.AddGold(goldWorth);
             Destroy(gameObject);
         }
     }
