@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.0/staging' branch; Version is '6000.0.67f1 (78a1c2bbeb6a) revision 7905730'; Using compiler version '193933523'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 16163 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-cchuk" at "2026-04-19T20:59:23.2933762Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-04-19T20:59:23Z
+Date: 2026-04-20T12:16:34Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-cchuk" at "2026-04-20T12:16:34.545544Z"
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.0.67f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ C:/Users/cchuk/Documents/GitHub/GD-204-Realm-Defence/GD204
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63147
+57440
 -licensingIpc
 LicenseClient-cchuk
 -job-worker-count
@@ -67,12 +67,12 @@ C:/Users/cchuk/Documents/GitHub/GD-204-Realm-Defence/GD204
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [31344]  Target information:
+Player connection [28696]  Target information:
 
-Player connection [31344]  * "[IP] 192.168.1.165 [Port] 0 [Flags] 2 [Guid] 1779211757 [EditorId] 1779211757 [Version] 1048832 [Id] WindowsEditor(7,CJ-PREDATOR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [28696]  * "[IP] 192.168.1.165 [Port] 0 [Flags] 2 [Guid] 471736442 [EditorId] 471736442 [Version] 1048832 [Id] WindowsEditor(7,CJ-PREDATOR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [31344] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [31344] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [28696] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [28696] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -84,7 +84,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 45.95 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.32 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.67f1 (78a1c2bbeb6a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.67f1/Editor/Data/Resources/UnitySubsystems
@@ -100,21 +100,21 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.67f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.67f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.67f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56816
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56092
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.67f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 [Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              0536f9a83bbc4417943d3a87de57d70b
-  Correlation Id:          63fe182bc7164afb63af600b7841d20c
-  External correlation Id: 5603107621167414197
+  Session Id:              b2774fbd99f34daca868c5c4b17e1f52
+  Correlation Id:          f7020b6ae975c9851abca023ebb5bb0c
+  External correlation Id: 2756904754837349895
   Machine Id:              0HNhYosA8j3gT3iYSdJl8Z9Uh+A=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-cchuk" (connect: 0.00s, validation: 0.00s, handshake: 2.84s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-cchuk-notifications" at "2026-04-19T20:59:26.1380859Z"
-[Licensing::Module] Licensing Background thread has ended after 2.84s
-[Licensing::Module] Licensing is initialized (took 1.69s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-cchuk" (connect: 0.00s, validation: 0.00s, handshake: 2.21s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-cchuk-notifications" at "2026-04-20T12:16:36.7576808Z"
+[Licensing::Module] Licensing Background thread has ended after 2.21s
+[Licensing::Module] Licensing is initialized (took 1.50s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 5773975852538-coolkid7312-UnityProStuXXXX
@@ -124,45 +124,45 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.67f1/
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.67f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 [Licensing::Client] Successfully resolved entitlement details
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.67f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 1.701308 seconds.
-- Loaded All Assemblies, in  2.394 seconds
+Registered in 1.518898 seconds.
+- Loaded All Assemblies, in  1.938 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 354 ms
+Android Extension - Scanning For ADB Devices 261 ms
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.848 seconds
-Domain Reload Profiling: 3239ms
-	BeginReloadAssembly (332ms)
+- Finished resetting the current domain, in  0.702 seconds
+Domain Reload Profiling: 2637ms
+	BeginReloadAssembly (142ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (48ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (1756ms)
-	LoadAllAssembliesAndSetupDomain (242ms)
-		LoadAssemblies (330ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (1572ms)
+	LoadAllAssembliesAndSetupDomain (168ms)
+		LoadAssemblies (140ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (235ms)
-			TypeCache.Refresh (233ms)
-				TypeCache.ScanAssembly (213ms)
+		AnalyzeDomain (164ms)
+			TypeCache.Refresh (162ms)
+				TypeCache.ScanAssembly (149ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (848ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (703ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (804ms)
+		SetupLoadedEditorAssemblies (657ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (488ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (83ms)
-			ProcessInitializeOnLoadAttributes (151ms)
-			ProcessInitializeOnLoadMethodAttributes (76ms)
+			InitializePlatformSupportModulesInManaged (373ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (155ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -172,8 +172,8 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1.364 seconds
-Refreshing native plugins compatible for Editor in 2.91 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.295 seconds
+Refreshing native plugins compatible for Editor in 2.71 ms, found 4 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
@@ -182,60 +182,224 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.305 seconds
-Domain Reload Profiling: 2661ms
-	BeginReloadAssembly (246ms)
+- Finished resetting the current domain, in  1.209 seconds
+Domain Reload Profiling: 2499ms
+	BeginReloadAssembly (236ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (46ms)
-	RebuildCommonClasses (52ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (994ms)
-		LoadAssemblies (632ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (939ms)
+		LoadAssemblies (571ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (485ms)
-			TypeCache.Refresh (329ms)
-				TypeCache.ScanAssembly (294ms)
-			BuildScriptInfoCaches (134ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1306ms)
+		AnalyzeDomain (488ms)
+			TypeCache.Refresh (337ms)
+				TypeCache.ScanAssembly (311ms)
+			BuildScriptInfoCaches (126ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1210ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1055ms)
+		SetupLoadedEditorAssemblies (951ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (24ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (7ms)
 			BeforeProcessingInitializeOnLoad (172ms)
-			ProcessInitializeOnLoadAttributes (687ms)
-			ProcessInitializeOnLoadMethodAttributes (157ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			ProcessInitializeOnLoadAttributes (537ms)
+			ProcessInitializeOnLoadMethodAttributes (148ms)
+			AfterProcessingInitializeOnLoad (56ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 3.11 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.15 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6760 unused Assets / (4.9 MB). Loaded Objects now: 7483.
-Memory consumption went from 145.7 MB to 140.8 MB.
-Total: 14.698900 ms (FindLiveObjects: 1.079300 ms CreateObjectMapping: 1.483100 ms MarkObjects: 8.167400 ms  DeleteObjects: 3.967700 ms)
+Unloading 6760 unused Assets / (4.7 MB). Loaded Objects now: 7483.
+Memory consumption went from 149.6 MB to 144.9 MB.
+Total: 12.349300 ms (FindLiveObjects: 1.632900 ms CreateObjectMapping: 0.919300 ms MarkObjects: 5.749200 ms  DeleteObjects: 4.046500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3065.998141 seconds.
-  path: Assets/Artwork/UI/Realm Defence - Electric Element.png
-  artifactKey: Guid(33652766bb4696648be163e9f0f59a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Artwork/UI/Realm Defence - Electric Element.png using Guid(33652766bb4696648be163e9f0f59a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5cff4811d8bc4d3fada405235f9b6b66') in 0.1379785 seconds
+  Time since last request: 6489.008358 seconds.
+  path: Assets/Artwork/UI/Realm Defence - Play Button - Normal.png
+  artifactKey: Guid(e45525a442045e94b9f21fd31385c0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/UI/Realm Defence - Play Button - Normal.png using Guid(e45525a442045e94b9f21fd31385c0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cfdd3078a452a542e2a4f36b57670279') in 0.1247561 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 65.173116 seconds.
+  Time since last request: 28.687338 seconds.
+  path: Assets/Artwork/UI/Realm Defence - Play Button - Normal.png
+  artifactKey: Guid(e45525a442045e94b9f21fd31385c0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/UI/Realm Defence - Play Button - Normal.png using Guid(e45525a442045e94b9f21fd31385c0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7cc571bc01646008aaa0d295f1aff252') in 0.016723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.265788 seconds.
+  path: Assets/Artwork/UI/Realm Defence - Back Button - Normal.png
+  artifactKey: Guid(d214a7621964c0c4188ee0f132e91726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/UI/Realm Defence - Back Button - Normal.png using Guid(d214a7621964c0c4188ee0f132e91726) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f081b7a00e0eeca14c8e2a6fd1ebc812') in 0.0247912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Artwork/UI/Realm Defence - Castle Health - Low.png
+  artifactKey: Guid(8da05893fc4de8841828815c26231c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/UI/Realm Defence - Castle Health - Low.png using Guid(8da05893fc4de8841828815c26231c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0bbc9eae6b56a9ed5be5f2c0e0762cc0') in 0.0210435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Artwork/UI/Realm Defence - Retry Button - Normal.png
+  artifactKey: Guid(e6b4dd67d12875f4abc91d4fb7ecf1fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/UI/Realm Defence - Retry Button - Normal.png using Guid(e6b4dd67d12875f4abc91d4fb7ecf1fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8476a6f7a9874e6d26093f9c7fa3872') in 0.0270168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Artwork/UI/Realm Defence - Speed Button - Pressed.png
+  artifactKey: Guid(e37e4bb98a967b9478e6d1361c5a6300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/UI/Realm Defence - Speed Button - Pressed.png using Guid(e37e4bb98a967b9478e6d1361c5a6300) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c48a7446de340e83bf77e12fc49b8df') in 0.0290241 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Artwork/UI/Realm Defence - Water Element.png
+  artifactKey: Guid(11d33c3b779dd014a8a332bec0f96cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/UI/Realm Defence - Water Element.png using Guid(11d33c3b779dd014a8a332bec0f96cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b58b1eb9d887e952bae792f293c70f8') in 0.034596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Artwork/UI/Realm Defence - Electric Status Effect.png
+  artifactKey: Guid(239c028fd31528048bb2540f1f8b880b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/UI/Realm Defence - Electric Status Effect.png using Guid(239c028fd31528048bb2540f1f8b880b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5c7819d07a3680ee9af74722617e0f3') in 0.0270724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Artwork/UI/Realm Defence - Speed Button - Normal.png
+  artifactKey: Guid(ddcbb69458d368b47afb173190141cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/UI/Realm Defence - Speed Button - Normal.png using Guid(ddcbb69458d368b47afb173190141cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e3fb6abfcab6839713aaeddb61156c7') in 0.0358265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Artwork/UI/Realm Defence - Water Status Effect.png
+  artifactKey: Guid(be8cdf3f54c890b438f69c2be2cbd48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/UI/Realm Defence - Water Status Effect.png using Guid(be8cdf3f54c890b438f69c2be2cbd48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21dde28bb75d1d9b627a3e78911220c3') in 0.0313761 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Artwork/UI/Realm Defence - Pause Button - Normal.png
+  artifactKey: Guid(ed2c4664459285042b4126237d65fea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/UI/Realm Defence - Pause Button - Normal.png using Guid(ed2c4664459285042b4126237d65fea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8af6c18b7f966b60df1f628b66e7b8b0') in 0.0347496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Artwork/UI/Realm Defence - Stats Button - Pressed.png
+  artifactKey: Guid(efa690bc7827094488a3d9b6797b59d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/UI/Realm Defence - Stats Button - Pressed.png using Guid(efa690bc7827094488a3d9b6797b59d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e6255db6265577f903314d7debb4004') in 0.0313768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Artwork/UI/Realm Defence - Start Button - Normal.png
+  artifactKey: Guid(7b3f0964b328f80479141a7c86390a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/UI/Realm Defence - Start Button - Normal.png using Guid(7b3f0964b328f80479141a7c86390a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc455347011403d11735d15ea4836915') in 0.0273784 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Artwork/UI/Realm Defence - Fire Element.png
+  artifactKey: Guid(c73e6a0879c011b4089bd98774e5d0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/UI/Realm Defence - Fire Element.png using Guid(c73e6a0879c011b4089bd98774e5d0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3162d0b0319739b7bd298d9282aeee95') in 0.0247351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Artwork/UI/Realm Defence - Units Button - Normal.png
+  artifactKey: Guid(c0c55e766e0e80745a33d187037c61c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/UI/Realm Defence - Units Button - Normal.png using Guid(c0c55e766e0e80745a33d187037c61c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dea18cb87baa5ea408a9617337c30455') in 0.0213864 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Artwork/UI/Realm Defence - Castle Health - Mid.png
+  artifactKey: Guid(493f0b0de3a89f8448ece93bba4cb0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/UI/Realm Defence - Castle Health - Mid.png using Guid(493f0b0de3a89f8448ece93bba4cb0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0cf66af78b458091734ee3f4f7409b42') in 0.0383646 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Artwork/UI/Realm Defence - Start Button - Pressed.png
+  artifactKey: Guid(c7dda403e673e314d9303248b2e9eadc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/UI/Realm Defence - Start Button - Pressed.png using Guid(c7dda403e673e314d9303248b2e9eadc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9913e0079589a32c57f1fc7120aa4cc') in 0.0246752 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Artwork/UI/Realm Defence - Shop Button - Inactive.png
+  artifactKey: Guid(0db068d0f5fd20747a7ff90e896b8ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/UI/Realm Defence - Shop Button - Inactive.png using Guid(0db068d0f5fd20747a7ff90e896b8ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bdff7295a3bbbc34806295fb6444048d') in 0.0278063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Artwork/UI/Realm Defence - Standard Element.png
+  artifactKey: Guid(50e915302124d43418891d1d102b26ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/UI/Realm Defence - Standard Element.png using Guid(50e915302124d43418891d1d102b26ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c9571a4888bfcf49172e438562f3472') in 0.0302025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
   path: Assets/Artwork/UI/Realm Defence - Castle Health - Castle Icon.png
   artifactKey: Guid(c4f046a2abb9c8b419955263014f61ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Artwork/UI/Realm Defence - Castle Health - Castle Icon.png using Guid(c4f046a2abb9c8b419955263014f61ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '135c274de6b91267ae7e2c143af7d53e') in 0.0195724 seconds
+Start importing Assets/Artwork/UI/Realm Defence - Castle Health - Castle Icon.png using Guid(c4f046a2abb9c8b419955263014f61ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ceece6c42be07565a6fa22a89f685cac') in 0.0204427 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Artwork/UI/Realm Defence - Retry Button - Pressed.png
+  artifactKey: Guid(1e392ffb1f5925346a6059fe0fd67d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/UI/Realm Defence - Retry Button - Pressed.png using Guid(1e392ffb1f5925346a6059fe0fd67d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2834dba57f8a1e86f50cd7b12e23754c') in 0.0210011 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Artwork/UI/Realm Defence - Castle Health - Outer Health Fill.png
+  artifactKey: Guid(2ff04b6ef07b0eb40bcb7dfb88ad03a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/UI/Realm Defence - Castle Health - Outer Health Fill.png using Guid(2ff04b6ef07b0eb40bcb7dfb88ad03a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '183858676607f284b34972d1a5c772c5') in 0.0178778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
