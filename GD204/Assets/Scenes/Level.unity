@@ -1402,7 +1402,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6340390dcf7675b43bf7c2ab93ed23a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnInterval: 2
+  initialSpawnInterval: 2
+  minimumSpawnInterval: 0.5
+  speedUpPerFiveSeconds: 0.05
   enemyToSpawn:
   - {fileID: 5923453369974223148, guid: 806f0a84746080140bd493f612f96570, type: 3}
   - {fileID: 4402937984174264241, guid: 1f7080cd51344e44c8cce76297420b6e, type: 3}
@@ -1422,6 +1424,9 @@ MonoBehaviour:
   timerText: {fileID: 702575672}
   spawner: {fileID: 475704663}
   addSecondEnemyToPool: 30
+  userInterface: {fileID: 0}
+  turretUI: {fileID: 0}
+  failUI: {fileID: 0}
 --- !u!1 &517544037
 GameObject:
   m_ObjectHideFlags: 0
@@ -1940,6 +1945,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75d6ed4070240514180ebe6d0a82998f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  unitData: {fileID: 11400000, guid: 5377487df9ecdee48931f5fb485c2fba, type: 2}
   range: 6
   fireRate: 1
   bulletPrefab: {fileID: 1572155962753987608, guid: 9e3d144010b0ca5468f69f0d1075cd53, type: 3}
@@ -2623,6 +2629,11 @@ MonoBehaviour:
   failCanvas: {fileID: 142284040}
   baseCanvas: {fileID: 1717228813}
   castleHealth: 250
+  scoreTracker: {fileID: 0}
+  healthyWall: {fileID: 0}
+  crackedWall: {fileID: 0}
+  veryCrackedWall: {fileID: 0}
+  destroyedWall: {fileID: 0}
 --- !u!61 &958715494
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2820,6 +2831,11 @@ MonoBehaviour:
   failCanvas: {fileID: 142284040}
   baseCanvas: {fileID: 1717228813}
   castleHealth: 250
+  scoreTracker: {fileID: 0}
+  healthyWall: {fileID: 0}
+  crackedWall: {fileID: 0}
+  veryCrackedWall: {fileID: 0}
+  destroyedWall: {fileID: 0}
 --- !u!1 &994284336
 GameObject:
   m_ObjectHideFlags: 0
@@ -3691,6 +3707,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75d6ed4070240514180ebe6d0a82998f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  unitData: {fileID: 11400000, guid: 6ffc6fd61f6289f4b911e8bb7e0645e8, type: 2}
   range: 6
   fireRate: 1
   bulletPrefab: {fileID: 2329469993013294930, guid: 96a7413d42b78fd4192a14e81f0aafa0, type: 3}
@@ -4088,6 +4105,11 @@ MonoBehaviour:
   failCanvas: {fileID: 142284040}
   baseCanvas: {fileID: 1717228813}
   castleHealth: 250
+  scoreTracker: {fileID: 0}
+  healthyWall: {fileID: 0}
+  crackedWall: {fileID: 0}
+  veryCrackedWall: {fileID: 0}
+  destroyedWall: {fileID: 0}
 --- !u!61 &1449261562
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4308,6 +4330,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75d6ed4070240514180ebe6d0a82998f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  unitData: {fileID: 0}
   range: 6
   fireRate: 1
   bulletPrefab: {fileID: 1572155962753987608, guid: 9e3d144010b0ca5468f69f0d1075cd53, type: 3}
@@ -5070,6 +5093,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75d6ed4070240514180ebe6d0a82998f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  unitData: {fileID: 0}
   range: 7.91
   fireRate: 1
   bulletPrefab: {fileID: 2329469993013294930, guid: 96a7413d42b78fd4192a14e81f0aafa0, type: 3}

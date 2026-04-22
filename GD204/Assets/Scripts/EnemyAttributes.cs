@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using static StatusEffects;
+using UnityEditor.Experimental.GraphView;
 
 public class EnemyAttributes : MonoBehaviour
 {
@@ -18,6 +19,10 @@ public class EnemyAttributes : MonoBehaviour
     public DamageIndicator damageIndicator;
 
     private bool isBurning = false;
+
+    private bool isDrenched = false;
+
+    private bool isElectricuted = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -91,6 +96,10 @@ public class EnemyAttributes : MonoBehaviour
         {
             coloredText = "<color=#FF4500>" + statusText + "</color>";
         }
+        else if (status == StatusEffects.StatusType.Electricuted)
+        {
+            coloredText = "<color=#FFEA00>" + statusText + "</color>";
+        }
         else if (status == StatusEffects.StatusType.None || status == StatusEffects.StatusType.None)
         {
             return; // Exit early if there's no status to show
@@ -115,14 +124,31 @@ public class EnemyAttributes : MonoBehaviour
                 StartCoroutine(BurnRoutine(3, 5));
             }
         }
+        else if (status == StatusEffects.StatusType.Electricuted)
+        {
+            {
+                if (isDrenched == true)
+                {
+
+
+                    StopCoroutine("StunRoutine");
+                    StartCoroutine(StunRoutine(4f, 0f));
+                }
+            }
+            
+        }
+
     }
 
     IEnumerator SlowRoutine(float duration, float slowAmount)
     {
+        isDrenched = true;
         float originalSpeed = movementSpeed;
         movementSpeed = originalSpeed * slowAmount;
 
         yield return new WaitForSeconds(duration);
+
+        isDrenched = false;
 
         movementSpeed = originalSpeed;
     }
@@ -137,4 +163,16 @@ public class EnemyAttributes : MonoBehaviour
         }
         isBurning = false;
     }
+
+    IEnumerator StunRoutine(float duration, float slowAmount)
+    {
+        float originalSpeed = movementSpeed;
+        movementSpeed = originalSpeed * slowAmount;
+
+        yield return new WaitForSeconds(duration);
+
+        movementSpeed = originalSpeed;
+    }
+
+
 }
