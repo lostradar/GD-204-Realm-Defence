@@ -103,7 +103,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unitData: {fileID: 11400000, guid: e714ac12414ee4840808d0098cc31a1f, type: 2}
   range: 6
-  fireRate: 1
+  fireRate: 0.5
   bulletPrefab: {fileID: 1572155962753987608, guid: 9e3d144010b0ca5468f69f0d1075cd53, type: 3}
   firePoint: {fileID: 7760317705493767654}
 --- !u!1 &2176052626475778530
