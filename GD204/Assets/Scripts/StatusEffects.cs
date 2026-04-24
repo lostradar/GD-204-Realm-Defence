@@ -7,6 +7,7 @@ public class StatusEffects : MonoBehaviour
         None,
         Burning,
         Drenched,
-        
+        Electricuted,
+
     }
 }

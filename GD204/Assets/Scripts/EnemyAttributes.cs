@@ -18,25 +18,23 @@ public class EnemyAttributes : MonoBehaviour
     public DamageIndicator damageIndicator;
 
     private bool isBurning = false;
+    private bool isDrenched = false;
+    private bool isElectricuted = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         int fiveSecondCycles = Mathf.FloorToInt(LevelTimer.timeElapsed / 5f);
-
-
         float bonusHealth = fiveSecondCycles * healthIncreasePerSecond;
 
         maxHealth = health + (int)bonusHealth;
         currentHealth = maxHealth;
 
         health = (int)maxHealth;
-
-        //maxHealth = health;
-        //currentHealth = health;
         _healthbar.UpdateHealthBar(maxHealth, currentHealth);
 
-        Debug.Log("Spawned with " + maxHealth + " HP at time: " + LevelTimer.timeElapsed);
+        //Bring this back in if enemies are not spawning with correct health
+        //Debug.Log("Spawned with " + maxHealth + " HP at time: " + LevelTimer.timeElapsed);
     }
 
     // Update is called once per frame
@@ -91,6 +89,10 @@ public class EnemyAttributes : MonoBehaviour
         {
             coloredText = "<color=#FF4500>" + statusText + "</color>";
         }
+        else if (status == StatusEffects.StatusType.Electricuted)
+        {
+            coloredText = "<color=#FFEA00>" + statusText + "</color>";
+        }
         else if (status == StatusEffects.StatusType.None || status == StatusEffects.StatusType.None)
         {
             return; // Exit early if there's no status to show
@@ -115,14 +117,29 @@ public class EnemyAttributes : MonoBehaviour
                 StartCoroutine(BurnRoutine(3, 5));
             }
         }
+        else if (status == StatusEffects.StatusType.Electricuted)
+        {
+            {
+                if (isDrenched == true)
+                {
+
+
+                    StopCoroutine("StunRoutine");
+                    StartCoroutine(StunRoutine(4f, 0f));
+                }
+            }
+
+        }
     }
 
     IEnumerator SlowRoutine(float duration, float slowAmount)
     {
+        isDrenched = true;
         float originalSpeed = movementSpeed;
         movementSpeed = originalSpeed * slowAmount;
 
         yield return new WaitForSeconds(duration);
+        isDrenched = false;
 
         movementSpeed = originalSpeed;
     }
@@ -136,5 +153,14 @@ public class EnemyAttributes : MonoBehaviour
             yield return new WaitForSeconds(1f);
         }
         isBurning = false;
+    }
+    IEnumerator StunRoutine(float duration, float slowAmount)
+    {
+        float originalSpeed = movementSpeed;
+        movementSpeed = originalSpeed * slowAmount;
+
+        yield return new WaitForSeconds(duration);
+
+        movementSpeed = originalSpeed;
     }
 }
