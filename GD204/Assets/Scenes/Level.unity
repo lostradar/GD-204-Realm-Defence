@@ -1795,7 +1795,7 @@ GameObject:
   - component: {fileID: 475704664}
   - component: {fileID: 475704665}
   m_Layer: 0
-  m_Name: GameManager
+  m_Name: Game Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1881,6 +1881,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c1766cee66a6de44875e3656a5d651f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  savedGold: 0
   levelTimer: {fileID: 475704664}
   gold: 0
   totalGold: 0
@@ -1890,6 +1891,8 @@ MonoBehaviour:
   goldText: {fileID: 2047737027}
   bonusGoldText: {fileID: 1950503388}
   totalGoldText: {fileID: 112055157}
+  experience: 0
+  maxExperience: 100
 --- !u!1 &517544037
 GameObject:
   m_ObjectHideFlags: 0
@@ -5258,7 +5261,7 @@ GameObject:
   - component: {fileID: 1428293140}
   - component: {fileID: 1428293139}
   m_Layer: 0
-  m_Name: CastleMaster
+  m_Name: Castle Master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

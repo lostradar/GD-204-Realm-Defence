@@ -3,6 +3,9 @@ using TMPro;
 
 public class ScoreTracker : MonoBehaviour
 {
+    public int savedGold;
+    private const string GoldKey = "Gold";
+
     public LevelTimer levelTimer;
 
     public int gold;
@@ -16,6 +19,12 @@ public class ScoreTracker : MonoBehaviour
     public TextMeshProUGUI bonusGoldText;
     public TextMeshProUGUI totalGoldText;
 
+
+
+    public int experience;
+    public int maxExperience;
+
+
     public static ScoreTracker instance;
     void Awake()
     {
@@ -27,13 +36,25 @@ public class ScoreTracker : MonoBehaviour
     {
         gold = 0;
         totalGold = 0;
-        
+        savedGold = PlayerPrefs.GetInt(GoldKey, 0);
     }
 
     // Update is called once per frame
     public void AddGold(int amount)
     {
         gold += amount;
+    }
+
+    public void AddExperience(int amount)
+    {
+        experience += amount;
+        while (experience >= maxExperience)
+        {
+            // keeps leftover xp
+            experience -= maxExperience;
+            // double next requirement for leveling up
+            maxExperience *= 2;
+        }
     }
 
     /* if we decide we want to show gold earned in game
@@ -57,9 +78,16 @@ public class ScoreTracker : MonoBehaviour
         int seconds = Mathf.FloorToInt(finalTime % 60f);
         timeText.text = "Time Survived: " + minutes.ToString("00") + ":" + seconds.ToString("00");
 
-        // converting time to gold and showing gold earned
+        // converting time to gold, saving and showing gold earned
         TimeToGoldConversion();
         totalGold = gold + timeGold;
+
+        //Saving Gold
+        savedGold += totalGold;
+        PlayerPrefs.SetInt(GoldKey, savedGold);
+        PlayerPrefs.Save();
+
+        //Displaying Gold
         goldText.text = "Gold earned: " + gold;
         bonusGoldText.text = "Bonus gold for time survived: " + timeGold;
         totalGoldText.text = "Total gold: " + totalGold;

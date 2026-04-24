@@ -12,6 +12,7 @@ public class EnemyAttributes : MonoBehaviour
     public int damage = 10;
 
     public int goldWorth;
+    public int experienceWorth;
 
     public float healthIncreasePerSecond = 0.001f;
 
@@ -44,6 +45,7 @@ public class EnemyAttributes : MonoBehaviour
         if (health <= 0)
         {
             ScoreTracker.instance.AddGold(goldWorth);
+            ScoreTracker.instance.AddExperience(experienceWorth);
             Destroy(gameObject);
         }
     }

@@ -434,8 +434,8 @@ MonoBehaviour:
   movementSpeed: 1
   health: 30
   damage: 15
-  scoreTracker: {fileID: 0}
   goldWorth: 5
+  experienceWorth: 5
   healthIncreasePerSecond: 0.001
   damageIndicator: {fileID: 1006985530490448202}
 --- !u!1001 &1242643869224563229

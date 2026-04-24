@@ -7,34 +7,27 @@ public class SwordSwipe : MonoBehaviour
     public float endAngle = 90f;
 
     private float currentAngle;
-    private bool goingForward = true;
+    private bool goingToEnd = true;
 
     void Start()
     {
         currentAngle = startAngle;
+        transform.localRotation = Quaternion.Euler(0, 0, currentAngle);
     }
 
     void Update()
     {
-        if (goingForward)
-        {
-            currentAngle += swipeSpeed * Time.deltaTime;
+        float targetAngle = goingToEnd ? endAngle : startAngle;
 
-            if (currentAngle >= endAngle)
-            {
-                currentAngle = endAngle;
-                goingForward = false;
-            }
-        }
-        else
-        {
-            currentAngle -= swipeSpeed * Time.deltaTime;
+        currentAngle = Mathf.MoveTowards(
+            currentAngle,
+            targetAngle,
+            swipeSpeed * Time.deltaTime
+        );
 
-            if (currentAngle <= startAngle)
-            {
-                currentAngle = startAngle;
-                goingForward = true;
-            }
+        if (Mathf.Approximately(currentAngle, targetAngle))
+        {
+            goingToEnd = !goingToEnd;
         }
 
         transform.localRotation = Quaternion.Euler(0, 0, currentAngle);
