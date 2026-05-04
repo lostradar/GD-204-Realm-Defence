@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using static UnityEngine.GraphicsBuffer;
 
@@ -8,13 +9,21 @@ public class Turret : MonoBehaviour
 
     public float range = 6f;
     public float fireRate = 1f;
+    public float animRate = 0.1f;
     public GameObject bulletPrefab;
     public Transform firePoint;
 
+
+    public GameObject unitShoot;
+    public GameObject unitStand;
+
     float fireCooldown;
+    float animCooldown;
 
     void Start()
     {
+        unitShoot.SetActive(false);
+        unitStand.SetActive(true);
         if (unitData != null)
         {
             range = unitData.range;
@@ -27,17 +36,38 @@ public class Turret : MonoBehaviour
     {
         GameObject target = FindClosestEnemy();
 
+
+
         if (target == null) return;
 
         Aim(target);
 
         if (fireCooldown <= 0f)
         {
+            ShootStart();
+
             Shoot(target);
+
             fireCooldown = 1f / fireRate;
+
+
         }
 
         fireCooldown -= Time.deltaTime;
+
+        if (animCooldown > 0f)
+        {
+            animCooldown -= Time.deltaTime;
+
+            if (animCooldown <= 0f)
+            {
+                
+                unitShoot.SetActive(false);
+                unitStand.SetActive(true);
+            }
+        }
+
+
     }
 
     GameObject FindClosestEnemy()
@@ -83,5 +113,18 @@ public class Turret : MonoBehaviour
             bulletScript.damage = unitData.damage;
             bulletScript.effect = unitData.effect;
         }
+    }
+
+    void ShootStart()
+    {
+        if (animCooldown <= 0f)
+        {
+            unitShoot.SetActive(true);
+            unitStand.SetActive(false);
+
+            animCooldown = 0.1f;
+
+        }
+        
     }
 }
