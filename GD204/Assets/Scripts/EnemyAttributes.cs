@@ -11,6 +11,15 @@ public class EnemyAttributes : MonoBehaviour
     public int health = 100;
     public int damage = 10;
 
+
+    public float animRate = 0.2f; //time per frame
+    private float walkAnimTimer = 0f;
+    private int walkAnimIndex = 0; // 0 = Left, 1 = Stand, 2 = Right, 3 = Stand
+    public GameObject enemyStand;
+    public GameObject enemyLeft;
+    public GameObject enemyRight;
+
+
     public int goldWorth;
     public int experienceWorth;
 
@@ -25,6 +34,7 @@ public class EnemyAttributes : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+
         int fiveSecondCycles = Mathf.FloorToInt(LevelTimer.timeElapsed / 5f);
         float bonusHealth = fiveSecondCycles * healthIncreasePerSecond;
 
@@ -41,6 +51,8 @@ public class EnemyAttributes : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+
         transform.Translate(Vector3.down * movementSpeed * Time.deltaTime);
         if (health <= 0)
         {
@@ -48,6 +60,14 @@ public class EnemyAttributes : MonoBehaviour
             ScoreTracker.instance.AddExperience(experienceWorth);
             Destroy(gameObject);
         }
+
+        walkAnimTimer += Time.deltaTime;
+        if (walkAnimTimer >= animRate)
+        {
+            walkAnimTimer -= animRate;
+            CycleWalkAnimation();
+        }
+
     }
     public void TakeDamage(int damage)
     {
@@ -164,5 +184,41 @@ public class EnemyAttributes : MonoBehaviour
         yield return new WaitForSeconds(duration);
 
         movementSpeed = originalSpeed;
+    }
+
+    // cycles animation frame
+    private void CycleWalkAnimation()
+    {
+        // Move to the next frame
+        walkAnimIndex++;
+        if (walkAnimIndex > 3) walkAnimIndex = 0; // Loop back
+
+        SetWalkAnimationFrame(walkAnimIndex);
+    }
+
+    // sets the correct frame
+    private void SetWalkAnimationFrame(int index)
+    {
+        enemyLeft.SetActive(false);
+        enemyStand.SetActive(false);
+        enemyRight.SetActive(false);
+
+        switch (index)
+        {
+            case 0:
+
+                enemyLeft.SetActive(true);
+                break;
+
+            case 1:
+
+            case 3:
+                enemyStand.SetActive(true);
+                break;
+
+            case 2:
+                enemyRight.SetActive(true);
+                break;
+        }
     }
 }
