@@ -790,6 +790,7 @@ GameObject:
   - component: {fileID: 142284043}
   - component: {fileID: 142284042}
   - component: {fileID: 142284041}
+  - component: {fileID: 142284045}
   m_Layer: 5
   m_Name: Fail Canvas
   m_TagString: Untagged
@@ -883,6 +884,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &142284045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142284040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b7cd11c74c63e441a59e01e7729c3e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &142290624
 GameObject:
   m_ObjectHideFlags: 0
@@ -3916,6 +3929,7 @@ GameObject:
   - component: {fileID: 1193349734}
   - component: {fileID: 1193349733}
   - component: {fileID: 1193349737}
+  - component: {fileID: 1193349738}
   m_Layer: 5
   m_Name: Turret UI Canvas
   m_TagString: Untagged
@@ -4024,6 +4038,18 @@ MonoBehaviour:
   fireButton: {fileID: 630339631}
   waterButton: {fileID: 1205838420}
   electricButton: {fileID: 1213878776}
+--- !u!114 &1193349738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193349732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b7cd11c74c63e441a59e01e7729c3e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1197995947
 GameObject:
   m_ObjectHideFlags: 0
@@ -5525,6 +5551,7 @@ GameObject:
   - component: {fileID: 1717228816}
   - component: {fileID: 1717228815}
   - component: {fileID: 1717228814}
+  - component: {fileID: 1717228818}
   m_Layer: 5
   m_Name: UI Canvas
   m_TagString: Untagged
@@ -5617,6 +5644,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1717228818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1717228813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b7cd11c74c63e441a59e01e7729c3e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1723814879
 GameObject:
   m_ObjectHideFlags: 0
@@ -5893,6 +5932,7 @@ GameObject:
   - component: {fileID: 1882782733}
   - component: {fileID: 1882782732}
   - component: {fileID: 1882782731}
+  - component: {fileID: 1882782735}
   m_Layer: 5
   m_Name: Pause Canvas
   m_TagString: Untagged
@@ -5985,6 +6025,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1882782735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1882782730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b7cd11c74c63e441a59e01e7729c3e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1950503385
 GameObject:
   m_ObjectHideFlags: 0
