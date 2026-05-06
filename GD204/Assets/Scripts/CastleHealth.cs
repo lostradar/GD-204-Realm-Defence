@@ -53,6 +53,7 @@ public class CastleHealth : MonoBehaviour
         Time.timeScale = 0f;
         failCanvas.SetActive(true);
         baseCanvas.SetActive(false);
+        AudioManager.instance.PlayGameOverMusic();
     }
 
     private void UpdateWallVisual()
