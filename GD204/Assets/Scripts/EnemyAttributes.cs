@@ -4,6 +4,7 @@ using static StatusEffects;
 
 public class EnemyAttributes : MonoBehaviour
 {
+
     public Healthbar _healthbar;
     public float movementSpeed = 0.2f;
     private float currentHealth;
@@ -57,6 +58,7 @@ public class EnemyAttributes : MonoBehaviour
         if (health <= 0)
         {
             DeathAnim();
+            
             ScoreTracker.instance.AddGold(goldWorth);
             ScoreTracker.instance.AddExperience(experienceWorth);
             Destroy(gameObject);
@@ -226,5 +228,6 @@ public class EnemyAttributes : MonoBehaviour
     void DeathAnim()
     {
        Instantiate (enemyExplode, transform.position, transform.rotation);
+      // destroyparticle.DestroyBlood();
     }
 }
