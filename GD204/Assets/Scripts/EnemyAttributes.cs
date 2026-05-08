@@ -18,6 +18,7 @@ public class EnemyAttributes : MonoBehaviour
     public GameObject enemyStand;
     public GameObject enemyLeft;
     public GameObject enemyRight;
+    public GameObject enemyExplode;
 
 
     public int goldWorth;
@@ -34,7 +35,6 @@ public class EnemyAttributes : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
         int fiveSecondCycles = Mathf.FloorToInt(LevelTimer.timeElapsed / 5f);
         float bonusHealth = fiveSecondCycles * healthIncreasePerSecond;
 
@@ -56,6 +56,7 @@ public class EnemyAttributes : MonoBehaviour
         transform.Translate(Vector3.down * movementSpeed * Time.deltaTime);
         if (health <= 0)
         {
+            DeathAnim();
             ScoreTracker.instance.AddGold(goldWorth);
             ScoreTracker.instance.AddExperience(experienceWorth);
             Destroy(gameObject);
@@ -220,5 +221,10 @@ public class EnemyAttributes : MonoBehaviour
                 enemyRight.SetActive(true);
                 break;
         }
+    }
+
+    void DeathAnim()
+    {
+       Instantiate (enemyExplode, transform.position, transform.rotation);
     }
 }
