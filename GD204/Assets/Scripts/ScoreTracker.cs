@@ -23,6 +23,7 @@ public class ScoreTracker : MonoBehaviour
 
     public int experience;
     public int maxExperience;
+    public int levelUpReward = 500;
 
 
     public static ScoreTracker instance;
@@ -50,11 +51,23 @@ public class ScoreTracker : MonoBehaviour
         experience += amount;
         while (experience >= maxExperience)
         {
+            LevelUp();
             // keeps leftover xp
             experience -= maxExperience;
             // double next requirement for leveling up
             maxExperience *= 2;
         }
+
+        
+    }
+
+    void LevelUp()
+    {
+        // Add the gold to the current run total
+        gold += levelUpReward;
+
+        // Visual feedback in console
+        Debug.Log("<color=yellow>Level Up!</color> Gained " + levelUpReward + " gold.");
     }
 
     /* if we decide we want to show gold earned in game
