@@ -63,10 +63,10 @@ public class ScoreTracker : MonoBehaviour
 
     void LevelUp()
     {
-        // Add the gold to the current run total
+        
         gold += levelUpReward;
 
-        // Visual feedback in console
+        
         Debug.Log("<color=yellow>Level Up!</color> Gained " + levelUpReward + " gold.");
     }
 
