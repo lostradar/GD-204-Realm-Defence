@@ -135,7 +135,7 @@ public class AudioManager : MonoBehaviour
     {
         if (buttonClickSound != null && sfxSource != null)
         {
-            sfxSource.PlayOneShot(buttonClickSound);
+            sfxSource.PlayOneShot(buttonClickSound, 0.25f);
         }
     }
 }
