@@ -3265,6 +3265,10 @@ MonoBehaviour:
   crackedWall: {fileID: 1406105393}
   veryCrackedWall: {fileID: 1446338268}
   destroyedWall: {fileID: 69998493}
+  crashSounds: []
+  volumeModifier: 0.7
+  warningSound: {fileID: 0}
+  lastWallState: 0
 --- !u!1 &994284336
 GameObject:
   m_ObjectHideFlags: 0
@@ -5081,6 +5085,13 @@ MonoBehaviour:
   crackedWall: {fileID: 1406105393}
   veryCrackedWall: {fileID: 1446338268}
   destroyedWall: {fileID: 69998493}
+  crashSounds:
+  - {fileID: 8300000, guid: 45994f75bdf1608468057145c942e819, type: 3}
+  - {fileID: 8300000, guid: cf7bedef666c0ca448728c9a0f570030, type: 3}
+  - {fileID: 8300000, guid: a3e7b68400d9f3c4486e3b894b28b1d6, type: 3}
+  volumeModifier: 0.4
+  warningSound: {fileID: 8300000, guid: bb676e74f22a699418b23b8160a06dfe, type: 3}
+  lastWallState: 0
 --- !u!4 &1428293141
 Transform:
   m_ObjectHideFlags: 0

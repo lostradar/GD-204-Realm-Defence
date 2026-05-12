@@ -198,6 +198,8 @@ MonoBehaviour:
   firePoint: {fileID: 5999636674674328045}
   unitShoot: {fileID: 6459943254383771487}
   unitStand: {fileID: 5268174203090003450}
+  shootSound: {fileID: 8300000, guid: a7f01b52d6de4604ab8b03bbd41218d4, type: 3}
+  volumeModifier: 0.3
 --- !u!1 &6459943254383771487
 GameObject:
   m_ObjectHideFlags: 0
