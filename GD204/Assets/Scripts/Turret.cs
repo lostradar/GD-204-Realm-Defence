@@ -20,6 +20,9 @@ public class Turret : MonoBehaviour
     float fireCooldown;
     float animCooldown;
 
+    public AudioClip shootSound;
+    public float volumeModifier = 0.5f;
+
     void Start()
     {
         unitShoot.SetActive(false);
@@ -124,6 +127,12 @@ public class Turret : MonoBehaviour
             unitStand.SetActive(false);
 
             animCooldown = 0.1f;
+
+        }
+
+        if (AudioManager.instance != null && shootSound != null)
+        {
+            AudioManager.instance.sfxSource.PlayOneShot(shootSound, volumeModifier);
 
         }
     }

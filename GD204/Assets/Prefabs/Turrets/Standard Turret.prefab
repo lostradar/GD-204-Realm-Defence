@@ -316,3 +316,5 @@ MonoBehaviour:
   firePoint: {fileID: 8151401649033149677}
   unitShoot: {fileID: 8213584895214094622}
   unitStand: {fileID: 5510045844703519164}
+  shootSound: {fileID: 8300000, guid: 3b8e04571e480444db95869c279c29f5, type: 3}
+  volumeModifier: 0.3
