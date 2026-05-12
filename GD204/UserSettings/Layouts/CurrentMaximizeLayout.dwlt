@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 24932
+  controlID: 2423
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 24933
+  controlID: 2424
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -187,9 +187,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: c2b20000
+      m_SelectedIDs: 1eb40000
       m_LastClickedID: 0
-      m_ExpandedIDs: 1af6fdffe4f7fdff8a35feffaa36feffba4afeff944ffeffa05bfeffe05efeff1060feffe8f9ffffde27010008280100
+      m_ExpandedIDs: baf9ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -238,7 +238,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 24934
+  controlID: 2425
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -264,7 +264,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 24935
+  controlID: 2426
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -285,8 +285,8 @@ MonoBehaviour:
     y: 0
     width: 503.2
     height: 471.2
-  m_MinSize: {x: 201, y: 226}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 202, y: 226}
+  m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 9}
   m_Panes:
   - {fileID: 9}
@@ -1072,7 +1072,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1082,7 +1082,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Christopher\Documents\GitHub\GD-204-Realm-Defence\GD204
   m_LockTracker:
@@ -1090,9 +1090,9 @@ MonoBehaviour:
   m_LastLocalAssetsSearchArea: 1
   m_FolderTreeState:
     scrollPos: {x: 0, y: 76.400024}
-    m_SelectedIDs: 76b60000
-    m_LastClickedID: 46710
-    m_ExpandedIDs: 00000000d8b5000000ca9a3b
+    m_SelectedIDs: f8b60000
+    m_LastClickedID: 46840
+    m_ExpandedIDs: 000000008ab6000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1121,7 +1121,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d8b5000000ca9a3b
+    m_ExpandedIDs: 000000008ab6000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1147,9 +1147,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: c2b20000
-    m_LastClickedInstanceID: 45762
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 1eb40000
+    m_LastClickedInstanceID: 46110
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 00000000000000000000000000000000000000001ab60000acc40000d8bb000068fb00006afb00006cfb00000abf0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
