@@ -1955,6 +1955,9 @@ MonoBehaviour:
   - {fileID: 5923453369974223148, guid: 806f0a84746080140bd493f612f96570, type: 3}
   - {fileID: 4402937984174264241, guid: 1f7080cd51344e44c8cce76297420b6e, type: 3}
   canSpawnSecondEnemy: 0
+  timeToSpawnElite: 10
+  eliteSpawnChance: 10
+  eliteEnemyPrefab: {fileID: 5923453369974223148, guid: 97528a6a26e847049a9a1a36600876be, type: 3}
 --- !u!114 &475704664
 MonoBehaviour:
   m_ObjectHideFlags: 0
