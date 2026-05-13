@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: WaterUnit
   m_EditorClassIdentifier: 
   unitName: Water Turret
-  damage: 5
+  damage: 75
   fireRate: 1
   range: 6
   effect: 2
