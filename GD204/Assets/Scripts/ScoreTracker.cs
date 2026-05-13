@@ -18,6 +18,7 @@ public class ScoreTracker : MonoBehaviour
     public TextMeshProUGUI goldText;
     public TextMeshProUGUI bonusGoldText;
     public TextMeshProUGUI totalGoldText;
+    public TextMeshProUGUI currentGoldEarned;
 
 
 
@@ -40,7 +41,10 @@ public class ScoreTracker : MonoBehaviour
         savedGold = PlayerPrefs.GetInt(GoldKey, 0);
     }
 
-    // Update is called once per frame
+    void Update()
+    {
+        UpdateGoldUI();
+    }
     public void AddGold(int amount)
     {
         gold += amount;
@@ -70,13 +74,11 @@ public class ScoreTracker : MonoBehaviour
         Debug.Log("<color=yellow>Level Up!</color> Gained " + levelUpReward + " gold.");
     }
 
-    /* if we decide we want to show gold earned in game
-     * 
-     * void UpdateGoldUI()
-     *{
-     *goldText.text = "Gold: " + totalGold.ToString();
-     *}
-    */
+    public void UpdateGoldUI()
+    {
+        currentGoldEarned.text = "GOLD: " + gold;
+    }
+    
     public void Die()
     {
         
