@@ -40,15 +40,20 @@ public class TurretUIManager : MonoBehaviour
 
     void TurretButtonActivation()
     {
-        if (LevelTimer.timeElapsed >= 10f)
+        // 1. Check Fire Turret (10s + Purchased)
+        if (LevelTimer.timeElapsed >= 10f && PlayerPrefs.GetInt("Unlock_Fire", 0) == 1)
         {
             fireButton.SetActive(true);
         }
-        if (LevelTimer.timeElapsed >= 20f)
+
+        // 2. Check Water Turret (20s + Purchased)
+        if (LevelTimer.timeElapsed >= 20f && PlayerPrefs.GetInt("Unlock_Water", 0) == 1)
         {
             waterButton.SetActive(true);
         }
-        if (LevelTimer.timeElapsed >= 30f)
+
+        // 3. Check Electric Turret (30s + Purchased)
+        if (LevelTimer.timeElapsed >= 30f && PlayerPrefs.GetInt("Unlock_Electric", 0) == 1)
         {
             electricButton.SetActive(true);
         }

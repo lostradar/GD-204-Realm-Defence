@@ -3,40 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|c:\\users\\christopher\\documents\\github\\gd-204-realm-defence\\gd204\\assets\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|c:\\users\\christopher\\documents\\github\\gd-204-realm-defence\\gd204\\assets\\scripts\\turretuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\turretuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|c:\\users\\christopher\\documents\\github\\gd-204-realm-defence\\gd204\\assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|c:\\users\\christopher\\documents\\github\\gd-204-realm-defence\\gd204\\assets\\scripts\\turretspot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\turretspot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\assets\\scripts\\buttonsoundassigner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buttonsoundassigner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\assets\\scripts\\volumebridge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\volumebridge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\assets\\scripts\\turret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\turret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\assets\\scripts\\castlehealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\castlehealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\assets\\scripts\\settingsmenulink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\settingsmenulink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\assets\\scripts\\expbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\expbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\assets\\scripts\\enemyattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|c:\\users\\christopher\\documents\\github\\gd-204-realm-defence\\gd204\\assets\\scripts\\menugolddisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menugolddisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C275A509-D14E-54AB-862F-D23103025B5B}|Assembly-CSharp.csproj|C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\assets\\scripts\\scoretracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,116 +31,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EnemySpawner.cs",
-              "DocumentMoniker": "C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\EnemySpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemySpawner.cs",
-              "ToolTip": "C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\EnemySpawner.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EnemySpawner.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAYwEQAAAAJAAAAAAAAAA==",
+              "Title": "TurretUIManager.cs",
+              "DocumentMoniker": "C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\TurretUIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TurretUIManager.cs",
+              "ToolTip": "C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\TurretUIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TurretUIManager.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAmwDsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T10:34:54.446Z",
+              "WhenOpened": "2026-05-13T12:41:44.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TurretSpot.cs",
+              "DocumentMoniker": "C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\TurretSpot.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TurretSpot.cs",
+              "ToolTip": "C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\TurretSpot.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TurretSpot.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAADoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T12:41:13.221Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ButtonSoundAssigner.cs",
-              "DocumentMoniker": "C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\ButtonSoundAssigner.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ButtonSoundAssigner.cs",
-              "ToolTip": "C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\ButtonSoundAssigner.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ButtonSoundAssigner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "MenuGoldDisplay.cs",
+              "DocumentMoniker": "C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\MenuGoldDisplay.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuGoldDisplay.cs",
+              "ToolTip": "C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\MenuGoldDisplay.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MenuGoldDisplay.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAwwCMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T14:46:14.46Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CastleHealth.cs",
-              "DocumentMoniker": "C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\CastleHealth.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CastleHealth.cs",
-              "ToolTip": "C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\CastleHealth.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CastleHealth.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAQwBYAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T12:39:08.828Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Turret.cs",
-              "DocumentMoniker": "C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\Turret.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Turret.cs",
-              "ToolTip": "C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\Turret.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Turret.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAkwIYAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T11:33:50.65Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "VolumeBridge.cs",
-              "DocumentMoniker": "C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\VolumeBridge.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\VolumeBridge.cs",
-              "ToolTip": "C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\VolumeBridge.cs",
-              "RelativeToolTip": "Assets\\Scripts\\VolumeBridge.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T11:58:53.592Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SettingsMenuLink.cs",
-              "DocumentMoniker": "C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\SettingsMenuLink.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SettingsMenuLink.cs",
-              "ToolTip": "C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\SettingsMenuLink.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SettingsMenuLink.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T11:53:03.63Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AudioManager.cs",
-              "DocumentMoniker": "C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\AudioManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\AudioManager.cs",
-              "ToolTip": "C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\AudioManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\AudioManager.cs",
-              "ViewState": "AgIAAHkAAAAAAAAAAAAcwIkAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T11:46:20.783Z",
+              "WhenOpened": "2026-05-13T12:28:57.938Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ExpBar.cs",
-              "DocumentMoniker": "C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\ExpBar.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ExpBar.cs",
-              "ToolTip": "C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\ExpBar.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ExpBar.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBAAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T11:04:59.729Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EnemyAttributes.cs",
-              "DocumentMoniker": "C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\EnemyAttributes.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyAttributes.cs",
-              "ToolTip": "C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\EnemyAttributes.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EnemyAttributes.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAwOMAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T10:59:24.979Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "ScoreTracker.cs",
               "DocumentMoniker": "C:\\Users\\Christopher\\Documents\\GitHub\\GD-204-Realm-Defence\\GD204\\Assets\\Scripts\\ScoreTracker.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ScoreTracker.cs",
