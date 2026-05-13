@@ -20,6 +20,10 @@ public class EnemySpawner : MonoBehaviour
     public bool canSpawnSecondEnemy = false;
     int rand;
 
+    public float timeToSpawnElite = 60f;
+    public int eliteSpawnChance = 10; 
+    public GameObject eliteEnemyPrefab;
+
 
 
     void Start()
@@ -54,6 +58,16 @@ public class EnemySpawner : MonoBehaviour
 
     void PickEnemyToSpawn()
     {
+        if (LevelTimer.timeElapsed >= timeToSpawnElite)
+        {
+            // Roll the dice for an Elite spawn
+            if (Random.Range(0, 100) < eliteSpawnChance)
+            {
+                spawn = eliteEnemyPrefab;
+                return; // Stop here and spawn the elite
+            }
+        }
+
         if (canSpawnSecondEnemy)
         {
             rand = Random.Range(0, enemyToSpawn.Length);
