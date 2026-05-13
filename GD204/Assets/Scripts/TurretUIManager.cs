@@ -4,7 +4,7 @@ public class TurretUIManager : MonoBehaviour
 {
     public static TurretUIManager instance;
 
-    public GameObject turretPanel; // your selection panel
+    public GameObject turretPanel; 
     public GameObject gameUI;
     private TurretSpot selectedSpot;
 
@@ -40,19 +40,19 @@ public class TurretUIManager : MonoBehaviour
 
     void TurretButtonActivation()
     {
-        // 1. Check Fire Turret (10s + Purchased)
+        
         if (LevelTimer.timeElapsed >= 10f && PlayerPrefs.GetInt("Unlock_Fire", 0) == 1)
         {
             fireButton.SetActive(true);
         }
 
-        // 2. Check Water Turret (20s + Purchased)
+        
         if (LevelTimer.timeElapsed >= 20f && PlayerPrefs.GetInt("Unlock_Water", 0) == 1)
         {
             waterButton.SetActive(true);
         }
 
-        // 3. Check Electric Turret (30s + Purchased)
+        
         if (LevelTimer.timeElapsed >= 30f && PlayerPrefs.GetInt("Unlock_Electric", 0) == 1)
         {
             electricButton.SetActive(true);

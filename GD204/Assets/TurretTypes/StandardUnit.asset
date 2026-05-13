@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1458bd135f34b014095bc79b5e45406e, type: 3}
   m_Name: StandardUnit
   m_EditorClassIdentifier: 
-  unitName: Standard Unit
+  unitName: Standard
   damage: 100
   fireRate: 1
   range: 6

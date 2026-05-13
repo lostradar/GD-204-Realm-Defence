@@ -38,6 +38,8 @@ public class MenuGoldDisplay : MonoBehaviour
         if (electricBuyButton != null) electricBuyButton.SetActive(PlayerPrefs.GetInt("Unlock_Electric", 0) == 0);
     }
 
+    
+
     public void BuyFireUnit()
     {
         TryPurchaseUnit("Unlock_Fire", 2000);

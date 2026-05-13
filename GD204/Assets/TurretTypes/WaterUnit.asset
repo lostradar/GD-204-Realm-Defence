@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1458bd135f34b014095bc79b5e45406e, type: 3}
   m_Name: WaterUnit
   m_EditorClassIdentifier: 
-  unitName: Water Turret
+  unitName: Water
   damage: 75
   fireRate: 1
   range: 6
