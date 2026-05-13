@@ -569,7 +569,7 @@ MonoBehaviour:
   enemyExplode: {fileID: 2457477682130493759, guid: afd51447c8b53b24a96576dc14a34a01, type: 3}
   goldWorth: 10
   experienceWorth: 10
-  healthIncreasePerSecond: 0.001
+  healthIncreasePerSecond: 2
   damageIndicator: {fileID: 7851214096823021472}
 --- !u!1 &8597434979682966576
 GameObject:
@@ -588,7 +588,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &6005729023186863774
 RectTransform:
   m_ObjectHideFlags: 0
@@ -598,7 +598,7 @@ RectTransform:
   m_GameObject: {fileID: 8597434979682966576}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 7595130657781621320}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: FireUnit
   m_EditorClassIdentifier: 
   unitName: Fire Unit
-  damage: 7
+  damage: 100
   fireRate: 1
   range: 6
   effect: 1

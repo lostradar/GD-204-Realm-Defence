@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: StandardUnit
   m_EditorClassIdentifier: 
   unitName: Standard Unit
-  damage: 10
+  damage: 100
   fireRate: 1
   range: 6
   effect: 0

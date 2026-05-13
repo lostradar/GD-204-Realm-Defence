@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ElectricUnit
   m_EditorClassIdentifier: 
   unitName: Electric Unit
-  damage: 10
+  damage: 75
   fireRate: 1
   range: 10
   effect: 3

@@ -230,7 +230,7 @@ RectTransform:
   m_GameObject: {fileID: 3774450789268870293}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 7262491584859041242}
@@ -532,7 +532,7 @@ MonoBehaviour:
   enemyExplode: {fileID: 2457477682130493759, guid: afd51447c8b53b24a96576dc14a34a01, type: 3}
   goldWorth: 5
   experienceWorth: 5
-  healthIncreasePerSecond: 0.001
+  healthIncreasePerSecond: 2
   damageIndicator: {fileID: 1006985530490448202}
 --- !u!1 &5129761023646762372
 GameObject:

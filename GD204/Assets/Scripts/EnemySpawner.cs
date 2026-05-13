@@ -82,11 +82,31 @@ public class EnemySpawner : MonoBehaviour
     void SpawnEnemy()
     {
         float randomX = Random.Range(screenLeftX, screenRightX);
-
-        Vector2 spawnPos = new Vector2(randomX, screenTopY + 1f); // +1 so it's off screen
+        Vector2 spawnPos = new Vector2(randomX, screenTopY + 1f);
 
         PickEnemyToSpawn();
 
-        Instantiate(spawn, spawnPos, Quaternion.identity);
+        if (spawn != null)
+        {
+            
+            GameObject newEnemy = Instantiate(spawn, spawnPos, Quaternion.identity);
+
+            
+            EnemyAttributes stats = newEnemy.GetComponent<EnemyAttributes>();
+
+            if (stats != null)
+            {
+                
+                if (spawn == eliteEnemyPrefab)
+                {
+                    stats.InitializeAttributes(500); 
+                }
+                else
+                {
+                    
+                    stats.InitializeAttributes(100);
+                }
+            }
+        }
     }
 }
