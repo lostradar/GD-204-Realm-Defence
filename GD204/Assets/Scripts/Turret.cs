@@ -47,16 +47,20 @@ public class Turret : MonoBehaviour
 
     void ApplyGlobalUpgrades()
     {
-        
         string prefix = unitData.unitName;
 
-        int dmgLvl = PlayerPrefs.GetInt(prefix + "_Upgrade_Damage", 0);
         int fireRateLvl = PlayerPrefs.GetInt(prefix + "_Upgrade_FireRate", 0);
-        int rangeLvl = PlayerPrefs.GetInt(prefix + "_Upgrade_Range", 0);
 
+        // ADD instead of SUBTRACT
+        // If base fireRate is 2, Level 5 makes it 2.5. 
+        // 1 / 2.5 = 0.4s delay (Faster than the original 0.5s delay)
+        fireRate = unitData.fireRate + (fireRateLvl * 0.1f);
+
+        // Update Damage and Range as usual...
+        int dmgLvl = PlayerPrefs.GetInt(prefix + "_Upgrade_Damage", 0);
+        int rangeLvl = PlayerPrefs.GetInt(prefix + "_Upgrade_Range", 0);
         finalDamage = unitData.damage + (dmgLvl * 2);
-        fireRate = unitData.fireRate + (fireRateLvl * 0.2f);
-        range = unitData.range + (rangeLvl * 1.0f);
+        range = unitData.range + (rangeLvl * 0.5f);
     }
 
     void Update()
