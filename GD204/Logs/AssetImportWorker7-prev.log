@@ -1,0 +1,552 @@
+Built from '6000.0/staging' branch; Version is '6000.0.67f1 (78a1c2bbeb6a) revision 7905730'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 32621 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-05-26T00:19:51Z
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-louie" at "2026-05-26T00:19:51.8207278Z"
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.67f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+C:/Users/louie/OneDrive/Documents/GitHub/GD-204-Realm-Defence/GD204
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+57639
+-licensingIpc
+LicenseClient-louie
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/louie/OneDrive/Documents/GitHub/GD-204-Realm-Defence/GD204
+C:/Users/louie/OneDrive/Documents/GitHub/GD-204-Realm-Defence/GD204
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [35984]  Target information:
+
+Player connection [35984]  * "[IP] 192.168.0.233 [Port] 0 [Flags] 2 [Guid] 3978654027 [EditorId] 3978654027 [Version] 1048832 [Id] WindowsEditor(7,Cyberpower) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [35984]  * "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 3978654027 [EditorId] 3978654027 [Version] 1048832 [Id] WindowsEditor(7,Cyberpower) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [35984] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [35984] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 9.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.67f1 (78a1c2bbeb6a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.67f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/louie/OneDrive/Documents/GitHub/GD-204-Realm-Defence/GD204/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Ti (ID=0x2803)
+    Vendor:   NVIDIA
+    VRAM:     7949 MB
+    Driver:   32.0.15.8142
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.67f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.67f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.67f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.17.4'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-louie"
+[Licensing::IpcConnector] LicenseClient-louie channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-louie-6000.0.67" at "2026-05-26T00:19:55.0818627Z"
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.67f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004448 seconds.
+- Loaded All Assemblies, in  1.388 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.036 seconds
+Domain Reload Profiling: 2420ms
+	BeginReloadAssembly (732ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (140ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (135ms)
+	LoadAllAssembliesAndSetupDomain (347ms)
+		LoadAssemblies (716ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (343ms)
+			TypeCache.Refresh (340ms)
+				TypeCache.ScanAssembly (322ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1037ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (951ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (65ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (145ms)
+			ProcessInitializeOnLoadAttributes (577ms)
+			ProcessInitializeOnLoadMethodAttributes (158ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              7cfe6abc18604a2eb9c01f01936db7bc
+  Correlation Id:          f61919f7108a7d5b6727f6931f37feaf
+  External correlation Id: 7567762697357394506
+  Machine Id:              pVZcQ3UKKdYxOMQsziew8K9hM7s=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-louie-6000.0.67" (connect: 0.00s, validation: 0.00s, handshake: 1.86s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-louie-6000.0.67-notifications" at "2026-05-26T00:19:56.9420085Z"
+[Licensing::Module] Licensing Background thread has ended after 5.13s
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-559Z-ESNU-EWRH-PCGX-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 5773053068775-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.959 seconds
+Refreshing native plugins compatible for Editor in 2.69 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.113 seconds
+Domain Reload Profiling: 2065ms
+	BeginReloadAssembly (208ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (657ms)
+		LoadAssemblies (412ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (365ms)
+			TypeCache.Refresh (249ms)
+				TypeCache.ScanAssembly (235ms)
+			BuildScriptInfoCaches (102ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1113ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (956ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (131ms)
+			ProcessInitializeOnLoadAttributes (692ms)
+			ProcessInitializeOnLoadMethodAttributes (122ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 3.31 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6776 unused Assets / (5.4 MB). Loaded Objects now: 7498.
+Memory consumption went from 145.7 MB to 140.3 MB.
+Total: 11.043300 ms (FindLiveObjects: 0.703300 ms CreateObjectMapping: 0.825700 ms MarkObjects: 6.072500 ms  DeleteObjects: 3.440100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 97499.711860 seconds.
+  path: Assets/Prefabs/Enemies/Blood Explosion.prefab
+  artifactKey: Guid(afd51447c8b53b24a96576dc14a34a01) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Enemies/Blood Explosion.prefab using Guid(afd51447c8b53b24a96576dc14a34a01) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ad4a14d28ebe78fb4fe771436b868384') in 0.7466819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Fonts/airstrikegrad SDF.asset
+  artifactKey: Guid(dcbc8967cab19ab429c617a99b96e154) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fonts/airstrikegrad SDF.asset using Guid(dcbc8967cab19ab429c617a99b96e154) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '17e1710a587a706470ff36231bf2ef19') in 0.4733467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Fonts/Comfort Expanse Demo SDF.asset
+  artifactKey: Guid(2cf9ba09ffecca84eadda661158b95d0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fonts/Comfort Expanse Demo SDF.asset using Guid(2cf9ba09ffecca84eadda661158b95d0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '140f787f2e409e877ddd19fb04aee780') in 0.0600076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fonts/True Mate.otf
+  artifactKey: Guid(390de3cdf300b2d4bbfa265c4d15e43f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fonts/True Mate.otf using Guid(390de3cdf300b2d4bbfa265c4d15e43f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4d316d642b42743de7ec31e0957f00e1') in 0.0586765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Artwork/UI/Realm Defence - Credits Button - Pressed.png
+  artifactKey: Guid(cc23bed55667e6448ac41eb69f29f7aa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Artwork/UI/Realm Defence - Credits Button - Pressed.png using Guid(cc23bed55667e6448ac41eb69f29f7aa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ff4e6bac9c1e7edeeb4023a1608ba050') in 0.0972055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Prefabs/Turrets/Electric Turret.prefab
+  artifactKey: Guid(aae537c2f92013746a402db5116df460) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Turrets/Electric Turret.prefab using Guid(aae537c2f92013746a402db5116df460) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '313962eccd9e298e3d7f0c9b3ab6fede') in 0.111081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Prefabs/Turrets/Water Turret.prefab
+  artifactKey: Guid(f61b40d45c764da44a0c14549cd46ed7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Turrets/Water Turret.prefab using Guid(f61b40d45c764da44a0c14549cd46ed7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fa22a77598397bc2ab84bfce668e2697') in 0.0820745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scripts/UpgradeManager.cs
+  artifactKey: Guid(a2bf504a6fc65d54790caeaa8ed0c645) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/UpgradeManager.cs using Guid(a2bf504a6fc65d54790caeaa8ed0c645) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7e432ff5e42a6e5f7df79e77a2b0aa4f') in 0.0192893 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Fonts/Squared_Core SDF.asset
+  artifactKey: Guid(42a66a0e4c1bee34c8857a2307e01854) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fonts/Squared_Core SDF.asset using Guid(42a66a0e4c1bee34c8857a2307e01854) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '83fd9443d1cb422404b66f7691ee73b8') in 0.0815924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scripts/MasterReset.cs
+  artifactKey: Guid(5a8c424efd5287e46b96c9d3ba016a5d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/MasterReset.cs using Guid(5a8c424efd5287e46b96c9d3ba016a5d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '83a542284ce56934d5f435fffb1464bb') in 0.0518955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Artwork/UI/Realm Defence - Credits Button - Normal.png
+  artifactKey: Guid(0be3709aeaab4b94687287c16de88e10) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Artwork/UI/Realm Defence - Credits Button - Normal.png using Guid(0be3709aeaab4b94687287c16de88e10) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '43ef31d8f5da8b78fe5b0bd2f4af1fc6') in 0.0330969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Artwork/Enemy/Enemy1_Fire_Standard.png
+  artifactKey: Guid(2f1daedd3c31f054a913401dd512b7c4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Artwork/Enemy/Enemy1_Fire_Standard.png using Guid(2f1daedd3c31f054a913401dd512b7c4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '69fb7177a959bf3499719893f0769e5c') in 0.0356028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scripts/EnemySpawner.cs
+  artifactKey: Guid(6340390dcf7675b43bf7c2ab93ed23a7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/EnemySpawner.cs using Guid(6340390dcf7675b43bf7c2ab93ed23a7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ad00ba65d11e2b27d80188e0d06d76ac') in 0.0137193 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Audio/Wall Crash 1.mp3
+  artifactKey: Guid(45994f75bdf1608468057145c942e819) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Audio/Wall Crash 1.mp3 using Guid(45994f75bdf1608468057145c942e819) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9d9f30c1ab2fd65d2b62859d93c39ec0') in 0.0694068 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scripts/DestroyParticle.cs
+  artifactKey: Guid(faf575f3989faa74aba2a5ab4d0d0919) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/DestroyParticle.cs using Guid(faf575f3989faa74aba2a5ab4d0d0919) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f0caf6bf81f82156b9358164a7b1cc83') in 0.0201551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Artwork/Units/Electric_char_back 1.png
+  artifactKey: Guid(c414b39e54e4ac943b5ea8293c915bb1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Artwork/Units/Electric_char_back 1.png using Guid(c414b39e54e4ac943b5ea8293c915bb1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '41be84bf715a7203d0f99a7f73429e2b') in 0.0307556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Prefabs/Turrets/Fire Turret.prefab
+  artifactKey: Guid(435c9623361906945a6126111a2a041d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Turrets/Fire Turret.prefab using Guid(435c9623361906945a6126111a2a041d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8dab1fd0b51c38f26db4bde5d6383659') in 0.1506071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Settings/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'babda2f3b37ca0f5e851acc40ce169bd') in 0.06965 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Artwork/UI/Realm Defence - Buy Button - Pressed.png
+  artifactKey: Guid(aeda4b75d19962d4f9c97039dac56d49) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Artwork/UI/Realm Defence - Buy Button - Pressed.png using Guid(aeda4b75d19962d4f9c97039dac56d49) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '29d9f841dacd37a5a479a7d62a91901a') in 0.0299504 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Artwork/Enemy/Enemy1_Forest_Elite.png
+  artifactKey: Guid(14eecbe11fb756242bc2937a9bde2d8b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Artwork/Enemy/Enemy1_Forest_Elite.png using Guid(14eecbe11fb756242bc2937a9bde2d8b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '069fb5e0d2622121b2f48c5186bb639f') in 0.0308347 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scripts/SettingsMenuLink.cs
+  artifactKey: Guid(0890888610637ce48983460143f27011) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/SettingsMenuLink.cs using Guid(0890888610637ce48983460143f27011) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b5a5bbaadda54b5e75d777bead951a4') in 0.0180142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Audio/Standard Gunshot RD.mp3
+  artifactKey: Guid(3b8e04571e480444db95869c279c29f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Audio/Standard Gunshot RD.mp3 using Guid(3b8e04571e480444db95869c279c29f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e0aa082b2166ca3d62c9944daac7692e') in 0.0935169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fonts/skirmisher.otf
+  artifactKey: Guid(48c05b297fe9d1c428f00a793bbf26f3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fonts/skirmisher.otf using Guid(48c05b297fe9d1c428f00a793bbf26f3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '108610122410a781e13563dbd852a33c') in 0.0371747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Artwork/Units/Electric_char_front 1.png
+  artifactKey: Guid(9a01eb54b7f39554787e681dc7a0bd61) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Artwork/Units/Electric_char_front 1.png using Guid(9a01eb54b7f39554787e681dc7a0bd61) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4a5e9b30fb9c25933969ff62e7879574') in 0.0305992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Audio/Wall Crash 3.mp3
+  artifactKey: Guid(a3e7b68400d9f3c4486e3b894b28b1d6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Audio/Wall Crash 3.mp3 using Guid(a3e7b68400d9f3c4486e3b894b28b1d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1df22c7a812442ef02daea6af2d90018') in 0.0556053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scripts/TurretUIManager.cs
+  artifactKey: Guid(97e8742730ee0894bbd66d9e70a8d2e4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/TurretUIManager.cs using Guid(97e8742730ee0894bbd66d9e70a8d2e4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '24e303b9b5d15e9819bc1003ce8a6be2') in 0.0143272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/TurretTypes/WaterUnit.asset
+  artifactKey: Guid(5377487df9ecdee48931f5fb485c2fba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TurretTypes/WaterUnit.asset using Guid(5377487df9ecdee48931f5fb485c2fba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9626a7b7d26f36c01ba60a3249d3c6bc') in 0.0219961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TurretTypes/FireUnit.asset
+  artifactKey: Guid(e714ac12414ee4840808d0098cc31a1f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TurretTypes/FireUnit.asset using Guid(e714ac12414ee4840808d0098cc31a1f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd6fe79336725c465daa5081de5a42e91') in 0.0352876 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scripts/Turret.cs
+  artifactKey: Guid(75d6ed4070240514180ebe6d0a82998f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/Turret.cs using Guid(75d6ed4070240514180ebe6d0a82998f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5dc2a9706df5842c31311b45fb560b7d') in 0.0207583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Fonts/Mechanization SDF.asset
+  artifactKey: Guid(6cca0d643e307e742adbe998bbb808ac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fonts/Mechanization SDF.asset using Guid(6cca0d643e307e742adbe998bbb808ac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '071ca04d96e5c2aefb76533d95942de2') in 0.0542974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scripts/AudioManager.cs
+  artifactKey: Guid(3494e2a1834956449be3aac70212be1c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/AudioManager.cs using Guid(3494e2a1834956449be3aac70212be1c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '25e83eb42e4f34d8ef904069b2be9149') in 0.0164033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fonts/CodePredators-Regular.otf
+  artifactKey: Guid(52f2fb54c9ea5fd478fbe5bde04ec0e5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fonts/CodePredators-Regular.otf using Guid(52f2fb54c9ea5fd478fbe5bde04ec0e5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '98696619193665dca685ac2a800d06a3') in 0.0226992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Artwork/UI/Realm Defence - Fire Rate Upgrade Button - Pressed.png
+  artifactKey: Guid(94c2c41bc9713a346a6788795ce08fc9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Artwork/UI/Realm Defence - Fire Rate Upgrade Button - Pressed.png using Guid(94c2c41bc9713a346a6788795ce08fc9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2a1d98b3abf8eab918b71c4f3c7c81d4') in 0.0270152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fonts/Comfort Expanse Demo.otf
+  artifactKey: Guid(6b6227da0136f7a46ac44529b2f888e2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fonts/Comfort Expanse Demo.otf using Guid(6b6227da0136f7a46ac44529b2f888e2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '47b5aceaf222f822e565920c65cb34a3') in 0.0198333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Prefabs/Enemies/EliteTypeEnemy.prefab
+  artifactKey: Guid(97528a6a26e847049a9a1a36600876be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Enemies/EliteTypeEnemy.prefab using Guid(97528a6a26e847049a9a1a36600876be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '84c275fce3d8879312cdc41b9b234d40') in 0.1019249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 68
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Scripts/ScoreTracker.cs
+  artifactKey: Guid(9c1766cee66a6de44875e3656a5d651f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/ScoreTracker.cs using Guid(9c1766cee66a6de44875e3656a5d651f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd1317f8e534aab3b07d61dd58d2ec6aa') in 0.0148519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Artwork/UI/Realm Defence - Damage Upgrade Button - Inactive.png
+  artifactKey: Guid(e2126ced72831db4a80d8a78606697c7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Artwork/UI/Realm Defence - Damage Upgrade Button - Inactive.png using Guid(e2126ced72831db4a80d8a78606697c7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9bc3873229b3286e889699478991c67f') in 0.0268738 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Artwork/UI/Realm Defence - Damage Upgrade Button - Normal.png
+  artifactKey: Guid(4d4ec446943605e4eb3751d98003bdb1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Artwork/UI/Realm Defence - Damage Upgrade Button - Normal.png using Guid(4d4ec446943605e4eb3751d98003bdb1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '94b265940e1ca5717570c0bb2cf51c13') in 0.0309192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scripts/EnemyAttributes.cs
+  artifactKey: Guid(7e98d1a2d8391dd4a954eb0e6eb112b9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/EnemyAttributes.cs using Guid(7e98d1a2d8391dd4a954eb0e6eb112b9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4173c7fd32d98892abdd5c3a70f3e805') in 0.0198961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fonts/earthorbiter SDF.asset
+  artifactKey: Guid(3fad29d29c8b3e0479ee11fa35c89f10) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fonts/earthorbiter SDF.asset using Guid(3fad29d29c8b3e0479ee11fa35c89f10) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ae35985aca8554a01df2b853dca44056') in 0.0718823 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Prefabs/Turrets/Standard Turret.prefab
+  artifactKey: Guid(0fabeecabe058844b825ce0fdc6ed719) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Turrets/Standard Turret.prefab using Guid(0fabeecabe058844b825ce0fdc6ed719) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3915f06f65f86e702784bcef255c7f67') in 0.0676017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
